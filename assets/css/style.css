@@ -103,12 +103,12 @@ body{
 @media only screen and (max-width: 1200px){
     .topofpage{
         width: 100%;
-        height: 1060px;
+        height: 1130px;
         background-color: white;
     }
     .name{
         text-align: center;
-        padding-top: 30%;
+        padding-top: 43%;
         font-family: 'Funnel Sans';
         font-size: 100px;
     }
