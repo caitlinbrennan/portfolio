@@ -4,6 +4,7 @@ body{
 .funnel-sans-heading {
     font-family: "Funnel Sans", serif;
     font-optical-sizing: auto;
+    font-weight: 400;
     font-style: normal;
   }
 
@@ -28,7 +29,29 @@ body{
     }
     .copyright{
         text-align: center;
+        font-family: 'Funnel Sans';
     }
+    .row {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+      
+      /* Create four equal columns that sits next to each other */
+      .column {
+        -ms-flex: 25%; /* IE10 */
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+      }
+      
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+      }
 }
 
 @media only screen and (max-width: 2700px){
@@ -51,6 +74,7 @@ body{
     }
     .copyright{
         text-align: center;
+        font-family: 'Funnel Sans';
     }
 }
 
@@ -74,6 +98,7 @@ body{
     }
     .copyright{
         text-align: center;
+        font-family: 'Funnel Sans';
     }
 }
 
@@ -97,6 +122,7 @@ body{
     }
     .copyright{
         text-align: center;
+        font-family: 'Funnel Sans';
     }
 }
 
@@ -120,5 +146,6 @@ body{
     }
     .copyright{
         text-align: center;
+        font-family: 'Funnel Sans';
     }
 }
