@@ -52,6 +52,12 @@ body{
         vertical-align: middle;
         width: 100%;
       }
+
+      .sitelink{
+        text-align: center;
+        font-family: 'Funnel Sans';
+        font-size: 30px;
+      }
 }
 
 @media only screen and (max-width: 2700px){
