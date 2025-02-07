@@ -10,6 +10,12 @@ body{
 
 
 @media only screen and (max-width: 4000px){
+    .socials{
+        position: relative;
+        padding-left: 95%;
+        margin-top: 1%;
+        padding-bottom: 0%;
+    }
     .topofpage{
         width: 100%;
         height: 1010px;
@@ -28,6 +34,7 @@ body{
         font-size: 80px;
     }
     .copyright{
+        padding-top: 5%;
         text-align: center;
         font-family: 'Funnel Sans';
     }
@@ -53,7 +60,26 @@ body{
         width: 100%;
       }
 
+      a{
+        color: rgb(58, 58, 58);
+      }
+      a:hover{
+        color: black;
+      }
+
+      .secondyear{
+        text-align: center;
+        font-family: 'Funnel Sans';
+        font-size: 30px;
+      }
+      .webgame{
+        color: black;
+        text-align: center;
+        font-family: 'Funnel Sans';
+        font-size: 30px;
+      }
       .sitelink{
+        color: black;
         text-align: center;
         font-family: 'Funnel Sans';
         font-size: 30px;
