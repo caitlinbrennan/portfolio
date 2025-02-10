@@ -23,7 +23,7 @@ body{
     }
     .name{
         text-align: center;
-        padding-top: 10%;
+        padding-top: 8%;
         font-family: 'Funnel Sans';
         font-size: 200px;
     }
@@ -38,26 +38,50 @@ body{
         text-align: center;
         font-family: 'Funnel Sans';
     }
+    .rowsocials {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+        align-items: center;
+      }
     .row {
         display: -ms-flexbox; /* IE10 */
         display: flex;
         -ms-flex-wrap: wrap; /* IE10 */
         flex-wrap: wrap;
         padding: 0 4px;
+        align-items: center;
+      }
+      .rowgame {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+        margin-left: 40%;
+      }
+
+      .columnsocial{
+        -ms-flex: 25%; /* IE10 */
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+      }
+      .columnsocial:hover{
+        cursor: pointer;
+      }
+      .columnsocial img{
+        width: 100%;
       }
       
       /* Create four equal columns that sits next to each other */
       .column {
         -ms-flex: 25%; /* IE10 */
         flex: 25%;
-        max-width: 25%;
+        max-width: 24.75%;
         padding: 0 4px;
-      }
-      
-      .column img {
-        margin-top: 8px;
-        vertical-align: middle;
-        width: 100%;
       }
 
       a{
