@@ -68,6 +68,10 @@ body{
         padding: 0 4px;
       }
 
+      .animatics{
+        padding-left: 22.5%;
+      }
+
       .columnsocial{
         -ms-flex: 25%; /* IE10 */
         flex: 25%;
