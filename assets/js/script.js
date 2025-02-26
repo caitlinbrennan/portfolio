@@ -7,3 +7,7 @@ function openDiscord(){
 function openLinkedIn(){
     window.open("https://linkedin.com/in/caitlin-brennan-1bb736304/");
 }
+
+function showPolaroid(){
+    document.getElementById("polaroid").classList.toggle("expanded");
+}
