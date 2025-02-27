@@ -99,9 +99,8 @@ body{
   /*Top of Page*/
     .socials{
         position: relative;
-        padding-left: 95%;
-        margin-top: 1%;
-        padding-bottom: 0%;
+        padding-left: 94%;
+        padding-top: 1%;
     }
     .topofpage{
         width: 100%;
@@ -127,6 +126,9 @@ body{
       cursor: pointer;
       color: rgb(73, 73, 73);
     }
+    .aboutlink{
+      text-decoration: none;
+    }
 
     /*Column/Row Info*/
     .rowsocials {
@@ -148,6 +150,7 @@ body{
         -ms-flex: 25%;
         flex: 25%;
         max-width: 24.75%;
+        max-height: 30%;
         padding: 0 4px;
       }
 
@@ -161,9 +164,11 @@ body{
         flex: 25%;
         max-width: 25%;
         padding: 0 4px;
+        transition: transform 0.3s ease-in-out;
       }
       .columnsocial:hover{
         cursor: pointer;
+        transform: scale(1.2);
       }
       .columnsocial img{
         width: 100%;
@@ -230,6 +235,19 @@ body{
       text-align: center;
       font-family: 'Funnel Sans';
       font-size: 30px;
+    }
+
+    /*About Page*/
+    .back-arrow{
+      transform: rotate(-70deg);
+      max-width: 4%;
+      margin-left: 1%;
+    }
+    .aboutheading{
+      font-family: 'Brown Sugar';
+      font-weight: bold;
+      text-align: center;
+      font-size: 100px;
     }
 }
 
