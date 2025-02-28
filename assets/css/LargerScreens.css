@@ -53,6 +53,15 @@ body{
   width: 20%;
   border-radius: 20px;
 }
+.menu-row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-left: 5%;
+}
 
   /*Polaroid effect on images*/
   .polaroid.expanded {
@@ -122,6 +131,7 @@ body{
       transform: translateY(0);
   }
 }
+
 .about::after {
   content: "";
   position: absolute;
@@ -279,13 +289,12 @@ body{
 
       /*Extra*/
       .main-headings{
-        padding-top: 3%;
         text-align: center;
         font-family: 'Funnel Sans';
         font-size: 80px;
     }
     .copyright{
-        padding-top: 5%;
+        padding-top: 2.5%;
         text-align: center;
         font-family: 'Funnel Sans';
     }
@@ -389,12 +398,36 @@ body{
       font-family: 'Funnel Sans';
       color: #000;
       font-size: 100px;
-    }.code-menu{
+    }
+    .code-menu{
       font-family: 'Funnel Sans';
       color: #000;
       font-size: 100px;
     }
     .menu-link{
+      text-decoration: none;
+    }
+
+    .small-menu{
+      font-family: 'Funnel Sans';
+      color: #000;
+      font-size: 25px;
+      transition: color 0.3s ease-in-out;
+      font-weight: 200;
+    }
+    .small-menu:hover{
+      cursor: pointer;
+      color: rgb(141, 141, 141);
+    }
+    .home{
+      text-decoration: none;
+    }
+    .code{
+      margin-left: 1%;
+      text-decoration: none;
+    }
+    .art{
+      margin-left: 1%;
       text-decoration: none;
     }
 }
