@@ -16,12 +16,25 @@ body{
 
 /*Image Rows*/
   .row {
+    justify-content: space-between;
     display: -ms-flexbox; /* IE10 */
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
+    align-items: flex-start;
     flex-wrap: wrap;
     padding: 0 4px;
   }
+  .column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 24.75%;
+    padding: 0 4px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.column img {
+  flex-shrink: 1;
+}
 
   /*Polaroid effect on images*/
   .polaroid.expanded {
@@ -54,15 +67,12 @@ body{
   transform: translateY(20px);
   animation: fadeInUp 1s ease-in-out forwards;
   animation-delay: 0.5s;
-  position: absolute;
 }
 .mywork{
   opacity: 0;
   transform: translateY(20px);
   animation: fadeInUp 1s ease-in-out forwards;
   animation-delay: 0.5s;
-  position: absolute;
-  margin-left: 46.2%;
 }
 @keyframes fadeIn {
   0% {
@@ -93,7 +103,7 @@ body{
   left: 0;
   background-color: rgb(73, 73, 73);
   transform: scaleX(0);
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.4s ease-in-out;
 }
 
 .about:hover::after {
@@ -115,7 +125,7 @@ body{
   left: 0;
   background-color: rgb(73, 73, 73);
   transform: scaleX(0);
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.4s ease-in-out;
 }
 .mywork:hover::after {
   transform: scaleX(1);
@@ -143,9 +153,6 @@ body{
         font-size: 200px;
     }
     .about{
-      font-family: 'Funnel Sans';
-      color: #000;
-      font-weight: 200;
         font-size: 50px;
         transition: color 0.3s ease-in-out;
     }
@@ -157,14 +164,23 @@ body{
       text-decoration: none;
     }
     .mywork{
+      font-size: 65px;
+      transition: color 0.3s ease-in-out;
+    }
+    .links{
       font-family: 'Funnel Sans';
       color: rgb(73, 73, 73);
       font-weight: 200;
-      font-size: 40px;
+      text-align: center;
+      padding-left: 45%;
+      padding-right: 45%;
     }
     .mywork:hover{
       cursor: pointer;
       color: #000;
+    }
+    .worklink{
+      text-decoration: none;
     }
 
 
@@ -212,12 +228,6 @@ body{
         width: 100%;
       }
       
-      .column {
-        -ms-flex: 25%;
-        flex: 25%;
-        max-width: 24.75%;
-        padding: 0 4px;
-      }
       .rowsite{
         display: -ms-flexbox;
         display: flex;
@@ -365,27 +375,7 @@ body{
     }
 
     /*Column/Row Info*/
-    .column {
-        -ms-flex: 25%;
-        flex: 25%;
-        max-width: 30%;
-        padding: 0 4px;
-      }
-      .row {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        padding: 0 4px;
-        align-items: center;
-      }
-    .column {
-      -ms-flex: 25%;
-      flex: 25%;
-      max-width: 50%;
-      padding: 0 4px;
-      align-items: center;
-    }
+
   
     .animatics{
       -ms-flex: 25%;
@@ -477,13 +467,7 @@ body{
   .columnsocial:hover{
     cursor: pointer;
   }
-    .column {
-      -ms-flex: 25%;
-      flex: 25%;
-      max-width: 50%;
-      padding: 0 4px;
-      align-items: center;
-    }
+
   
     .animatics{
       -ms-flex: 25%;
@@ -575,14 +559,7 @@ body{
   .columnsocial:hover{
     cursor: pointer;
   }
-    .column {
-      -ms-flex: 25%;
-      flex: 25%;
-      max-width: 50%;
-      padding: 0 4px;
-      align-items: center;
-    }
-  
+
     .animatics{
       -ms-flex: 25%;
       flex: 25%;
