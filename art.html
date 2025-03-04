@@ -6,19 +6,35 @@
         <title>Caitlin Brennan</title>
         
         <link rel="stylesheet" href="assets/css/LargerScreens.css">
+        <link rel="stylesheet" href="assets/css/SmallerScreens.css">
         <link rel="icon" href="assets/imgs/Portfolio Logo - Name.png" type="image/x-icon"/>
         <link rel="shortcut icon" href="assets/imgs/Portfolio Logo - Name.png" type="image/x-icon" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Indie+Flower&family=Patrick+Hand&family=Truculenta:opsz,wght@12..72,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
         </style>
     </head>
     <body>
+        <!-- Top Navigation Menu -->
+<div class="topnav">
+    <a href="#home" class="active">Logo</a>
+    <!-- Navigation links (hidden by default) -->
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <div id="myLinks">
+      <a href="../portfolio/index.html">Home</a>
+      <a href="../portfolio/code.html">Code</a>
+    </div>
+  </div>
+
         <div class="menu-row">
             <a href="../portfolio/index.html" class="home"><h4 class="small-menu" style="margin-left: 1%;">Home</h4></a>
             <a href="../portfolio/code.html" class="code"><h4 class="small-menu" style="margin-left: 1%;">Code</h4></a>
         </div>
         <h2 class="main-headings" id="art">Art</h2>
-        <div class="row"> 
+        <div class="rowanimatic"> 
             <div class="column">
                 <img src="assets/imgs/GLASS_MUG.png" style="width:100%" class="polaroid" id="polaroid" onclick="showPolaroid()">
                 <img src="assets/imgs/LILLY_OF_THE_VALLEY_IMAGE.png" style="width:100%" class="polaroid" id="polaroid" onclick="showPolaroid()">
@@ -29,14 +45,12 @@
             </div>
           </div>
         <h2 class="main-headings">Animatics</h2>
-        <div class="row">
+        <div class="rowanimatics">
             <div class="animatics">
-                <video controls>
+                <video controls style="max-width: 40%;">
                     <source src="assets/imgs/An_PhiastEXE.mp4">
                 </video>
-            </div>
-            <div class="animatics">
-                <video controls>
+                <video controls style="max-width: 37.5%;">
                     <source src="assets/imgs/Seven - Taylor Swift (Animatic).mp4">
                 </video>
             </div>

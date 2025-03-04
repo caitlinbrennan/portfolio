@@ -1,150 +1,97 @@
-body{
-    background-color: rgb(243, 243, 243);
+ /* Style the navigation menu */
+ .topnav {
+  display: block;
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  margin-top: 12%;
 }
 
-/*Fonts*/
-.funnel-sans-heading {
-    font-family: "Funnel Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
-@font-face {
-  font-family: 'Brown Sugar';
-  src: url(../../Brown-Sugar/BrownSugar.ttf);
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
 }
 
-/*Image Rows*/
-  .row {
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-
-  /*Polaroid effect on images*/
-  .polaroid.expanded {
-    transform: translate(-50%, -50%) rotate(-5deg);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    padding: 15px;
-    position: relative;
-    background: white;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    text-align: center;
-    font-family: Arial, sans-serif;
-    transition: transform 0.5s ease-in-out, width 0.5s ease-in-out;
-    cursor: pointer;
-}
-.polaroid img {
-    width: 100%;
-    height: auto;
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
 }
 
-/*Heading Animations*/
-.name{
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeInUp 1s ease-in-out forwards;
-}
-.about{
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeInUp 1s ease-in-out forwards;
-  animation-delay: 0.5s;
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
   position: absolute;
-}
-.mywork{
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeInUp 1s ease-in-out forwards;
-  animation-delay: 0.5s;
-  position: absolute;
-  margin-left: 46.2%;
-}
-@keyframes fadeIn {
-  0% {
-      opacity: 0;
-      transform: translateY(-20px);
-  }
-  100% {
-      opacity: 1;
-      transform: translateY(0);
-  }
-}
-@keyframes fadeInUp {
-  0% {
-      opacity: 0;
-      transform: translateY(20px);
-  }
-  100% {
-      opacity: 1;
-      transform: translateY(0);
-  }
-}
-.about::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: rgb(73, 73, 73);
-  transform: scaleX(0);
-  transition: transform 0.3s ease-in-out;
+  right: 0;
+  top: 0;
 }
 
-.about:hover::after {
-  transform: scaleX(1);
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
-.aboutheading{
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeInUp 1s ease-in-out forwards;
+/* Style the active link (or home/logo) */
+.active {
+  background-color: transparent;
+  color: white;
 }
-
-.mywork::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: rgb(73, 73, 73);
-  transform: scaleX(0);
-  transition: transform 0.3s ease-in-out;
-}
-.mywork:hover::after {
-  transform: scaleX(1);
-}
-
 
 /*Mobile Phone Sizing*/
 @media only screen and (max-width: 500px){
     /*Top of Page*/
     .socials{
-      position: relative;
-      padding-left: 70%;
-      margin-top: 5%;
-      padding-bottom: 0%;
-      width: 35%;
+      display: none;
   }
-    .topofpage{
-        width: 100%;
-        height: 710px;
-        background-color: rgb(247, 227, 241);
-        margin-top: -5%;
-        padding-bottom: 5%;
-    }
-    .name{
-        text-align: center;
-        padding-top: 65%;
-        font-family: 'Funnel Sans';
-        font-size: 60px;
-    }
+  .topofpage{
+    width: 96%;
+    height: 80%;
+    background-color: rgb(211, 211, 211);
+    margin-top: 5%;
+    position: absolute;
+  }
+  .name{
+  font-family: 'Brown Sugar';
+  font-weight: bold;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 80px;
+  }
+  .about{
+      font-size: 30px;
+      transition: color 0.3s ease-in-out;
+  }
+  .about:hover{
+    cursor: pointer;
+    color: rgb(73, 73, 73);
+  }
+  .aboutlink{
+    text-decoration: none;
+  }
+  .mywork{
+    font-size: 35px;
+    transition: color 0.3s ease-in-out;
+  }
+  .links{
+    font-family: 'Funnel Sans';
+    color: rgb(73, 73, 73);
+    font-weight: 200;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+  .mywork:hover{
+    cursor: pointer;
+    color: #000;
+  }
+  .worklink{
+    text-decoration: none;
+  }
   
     /*Column/Row Info*/
     .rowsocials {
@@ -216,7 +163,61 @@ body{
         font-size: 50px;
     }
     .copyright{
+        padding-top: 187%;
         text-align: center;
         font-family: 'Funnel Sans';
+    }
+
+    /*Menu Page*/
+    .exit{
+      width: 8%;
+      margin-left: 5%;
+      margin-top: 5%;
+    }
+    .art-menu{
+      font-family: 'Funnel Sans';
+      color: #000;
+      font-size: 80px;
+    }
+    .code-menu{
+      font-family: 'Funnel Sans';
+      color: #000;
+      font-size: 80px;
+    }
+    .menu-link{
+      text-decoration: none;
+    }
+    .menu-box{
+      background-color: rgb(177, 177, 177);
+      width: 70%;
+      border-radius: 20px;
+      margin-top: 15%;
+      margin-bottom: 5%;
+    }
+    .menu-row{
+      display: none;
+    }
+
+    .small-menu{
+      font-family: 'Funnel Sans';
+      color: #000;
+      font-size: 25px;
+      transition: color 0.3s ease-in-out;
+      font-weight: 200;
+    }
+    .small-menu:hover{
+      cursor: pointer;
+      color: rgb(141, 141, 141);
+    }
+    .home{
+      text-decoration: none;
+    }
+    .code{
+      margin-left: 1%;
+      text-decoration: none;
+    }
+    .art{
+      margin-left: 1%;
+      text-decoration: none;
     }
   }
