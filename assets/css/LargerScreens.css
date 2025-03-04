@@ -317,7 +317,7 @@ body{
         font-size: 80px;
     }
     .copyright{
-      padding-top: 4%;
+      padding-top: 33.5%;
         text-align: center;
         font-family: 'Funnel Sans';
     }
@@ -594,7 +594,7 @@ font-weight: bold;
     font-size: 80px;
 }
 .copyright{
-  padding-top: 4%;
+  padding-top: 44%;
   text-align: center;
   font-family: 'Funnel Sans';
 }
@@ -1290,99 +1290,4 @@ a:hover{
   margin-left: 1%;
   text-decoration: none;
 }
-}
-
-/*Roughly iPad Pro Size*/
-@media only screen and (max-width: 1100px){
-  .topnav{
-    display: none;
-  }
-    /*Top of Page*/
-    .socials{
-      position: relative;
-      padding-left: 94%;
-      padding-top: 1%;
-  }
-  .topofpage{
-    width: 99.5%;
-    height: 70%;
-    background-color: rgb(211, 211, 211);
-    margin-top: 5%;
-    position: absolute;
-  }
-  .name{
-  font-family: 'Brown Sugar';
-  font-weight: bold;
-    text-align: center;
-    padding-top: 5%;
-    font-size: 200px;
-  }
-  .about{
-      font-size: 35px;
-      transition: color 0.3s ease-in-out;
-  }
-  .about:hover{
-    cursor: pointer;
-    color: rgb(73, 73, 73);
-  }
-  .aboutlink{
-    text-decoration: none;
-  }
-  .mywork{
-    font-size: 43px;
-    transition: color 0.3s ease-in-out;
-  }
-  .links{
-    font-family: 'Funnel Sans';
-    color: rgb(73, 73, 73);
-    font-weight: 200;
-    text-align: center;
-    padding-left: 45%;
-    padding-right: 45%;
-  }
-  .mywork:hover{
-    cursor: pointer;
-    color: #000;
-  }
-  .worklink{
-    text-decoration: none;
-  }
-
-
-  /*Column/Row Info*/
-.rowsocials {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding: 0 4px;
-  align-items: center;
-}
-  .columnsocial{
-    -ms-flex: 25%;
-    flex: 25%;
-    max-width: 30%;
-    padding: 0 4px;
-    transition: transform 0.3s ease-in-out;
-  }
-  .columnsocial:hover{
-    cursor: pointer;
-    transform: scale(1.2);
-  }
-  .columnsocial img{
-    width: 100%;
-  }
-  .rowanimatics {
-    justify-content: space-evenly;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-  .animatics{
-    -ms-flex: 25%;
-    flex: 25%;
-    padding-left: 0 4px;
-    margin-left: 17%;
-  }
 }
