@@ -318,22 +318,15 @@ body{
         flex-wrap: wrap;
         padding: 0 4px;
       }
-      .rowsite img{
-        width: 35%;
+      .columnsites{
+        -ms-flex: 25%;
+        flex: 25%;
+        max-width: 35%;
+        margin-left: auto;
+        margin-right: auto;
       }
-      .rowsite2{
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        padding: 0 4px;
-      }
-      .rowsite2 img{
-        width: 35%;
-      }
-
       /*Extra*/
-      .main-headings{
+    .main-headings{
         text-align: center;
         font-family: 'Funnel Sans';
         font-size: 80px;
@@ -382,6 +375,11 @@ body{
     text-align: center;
     font-family: 'Funnel Sans';
   }
+  .copyrightabout{
+    padding-top: 1%;
+    text-align: center;
+    font-family: 'Funnel Sans';
+  }
     a{
       color: rgb(58, 58, 58);
     }
@@ -394,8 +392,8 @@ body{
       font-size: 30px;
     }
     .webgame{
-      color: black;
       text-align: center;
+      color: black;
       font-family: 'Funnel Sans';
       font-size: 30px;
     }
@@ -515,6 +513,7 @@ body{
       text-decoration: none;
     }
 }
+
 
 /*Bigger PC*/
 @media only screen and (max-width: 2700px){
