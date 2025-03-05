@@ -9,21 +9,10 @@ body{
     font-weight: 400;
     font-style: normal;
   }
-/*@font-face {
-  font-family: 'Brown Sugar';
-  src: url(../../Brown-Sugar/BrownSugar.ttf);
-}*/
 @font-face {
   font-family: 'Brown Sugar';
-  src: url('../portfolio/assets/fonts/Brown-SugarBrownSugar.ttf.eot');
-  src: url('../portfolio/assets/fonts/Brown-SugarBrownSugar.ttf.eot?#iefix') format('embedded-opentype'),
-       url('../portfolio/assets/fonts/Brown-SugarBrownSugar.ttf.woff') format('woff'),
-       url('../portfolio/assets/fonts/Brown-SugarBrownSugar.ttf.ttf') format('truetype'),
-       url('../portfolio/assets/fonts/Brown-SugarBrownSugar.ttf.svg#open_sans_hebrewnormal') format('svg');
-  font-weight: 400;
-  font-style: normal;
+  src: url(../../Brown-Sugar/BrownSugar.otf);
 }
-
 /*Image Rows*/
   .row {
     display: -ms-flexbox; /* IE10 */
@@ -179,6 +168,12 @@ body{
   transform: scaleX(1);
 }
 
+
+.subheadingsbox{
+  color: rgb(177, 177, 177);
+  width: 99%;
+}
+
 /*Widescreen Monitor*/
 @media only screen and (max-width: 4000px){
   .topnav{
@@ -199,7 +194,7 @@ body{
     }
     .name{
       font-family: 'Brown Sugar';
-      font-weight: bold;
+      font-weight: 500;
         text-align: center;
         padding-top: 5%;
         font-size: 200px;
@@ -238,6 +233,23 @@ body{
 
 
     /*Column/Row Info*/
+    .ThreeDrow {
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      align-items: flex-start;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    .ThreeDcolumn {
+      -ms-flex: 25%;
+      flex: 25%;
+      max-width: 24.75%;
+      padding: 0 4px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     .rowsocials {
         display: -ms-flexbox;
         display: flex;
@@ -326,11 +338,50 @@ body{
         font-family: 'Funnel Sans';
         font-size: 80px;
     }
+    .subheadings{
+      text-align: center;
+      font-family: 'Funnel Sans';
+      font-size: 40px;
+      margin-bottom: 4%;
+    }
+    .artheadings{
+      text-align: center;
+      font-size: 50px;
+      font-weight: 400;
+      font-family: 'Funnel Sans';
+    }
+    .codeheadings{
+      text-align: center;
+      font-size: 50px;
+      font-weight: 400;
+      font-family: 'Funnel Sans';
+    }
+    .subart{
+      padding-left: 2%;
+      padding-right: 2%;
+      text-decoration: none;
+    }
+    .subart{
+      color: rgb(58, 58, 58);
+    }
+    .subart:hover{
+      color: black;
+    }
     .copyright{
       padding-top: 33.5%;
         text-align: center;
         font-family: 'Funnel Sans';
     }
+    .copyrightart{
+      padding-top: 3%;
+      text-align: center;
+      font-family: 'Funnel Sans';
+  }
+  .copyrightcode{
+    padding-top: 3%;
+    text-align: center;
+    font-family: 'Funnel Sans';
+  }
     a{
       color: rgb(58, 58, 58);
     }
@@ -485,7 +536,7 @@ body{
 }
 .name{
 font-family: 'Brown Sugar';
-font-weight: bold;
+font-weight: 500;
   text-align: center;
   padding-top: 5%;
   font-size: 180px;
@@ -607,6 +658,16 @@ font-weight: bold;
   padding-top: 44%;
   text-align: center;
   font-family: 'Funnel Sans';
+}
+.copyrightart{
+  padding-top: 3%;
+  text-align: center;
+  font-family: 'Funnel Sans';
+}
+.copyrightcode{
+padding-top: 3%;
+text-align: center;
+font-family: 'Funnel Sans';
 }
 a{
   color: rgb(58, 58, 58);
@@ -762,7 +823,7 @@ a:hover{
 }
 .name{
 font-family: 'Brown Sugar';
-font-weight: bold;
+font-weight: 500;
   text-align: center;
   padding-top: 5%;
   font-size: 180px;
@@ -883,6 +944,16 @@ font-weight: bold;
     padding-top: 4%;
     text-align: center;
     font-family: 'Funnel Sans';
+}
+.copyrightart{
+  padding-top: 3%;
+  text-align: center;
+  font-family: 'Funnel Sans';
+}
+.copyrightcode{
+padding-top: 3%;
+text-align: center;
+font-family: 'Funnel Sans';
 }
 a{
   color: rgb(58, 58, 58);

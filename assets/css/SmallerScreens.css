@@ -18,7 +18,7 @@
 }
 .name{
 font-family: 'Brown Sugar';
-font-weight: bold;
+font-weight: 500;
   text-align: center;
   padding-top: 5%;
   font-size: 170px;
@@ -147,6 +147,16 @@ font-weight: bold;
     padding-top: 2.5%;
     text-align: center;
     font-family: 'Funnel Sans';
+}
+.copyrightart{
+  padding-top: 20%;
+  text-align: center;
+  font-family: 'Funnel Sans';
+}
+.copyrightcode{
+padding-top: 20%;
+text-align: center;
+font-family: 'Funnel Sans';
 }
 a{
   color: rgb(58, 58, 58);
@@ -340,7 +350,7 @@ a:hover{
    }
    .name{
    font-family: 'Brown Sugar';
-   font-weight: bold;
+   font-weight: 500;
      text-align: center;
      padding-top: 5%;
      font-size: 110px;
@@ -450,6 +460,16 @@ a:hover{
          text-align: center;
          font-family: 'Funnel Sans';
      }
+     .copyrightart{
+      padding-top: 20%;
+      text-align: center;
+      font-family: 'Funnel Sans';
+  }
+  .copyrightcode{
+    padding-top: 20%;
+    text-align: center;
+    font-family: 'Funnel Sans';
+  }
  
      /*Menu Page*/
      .exit{
@@ -563,7 +583,7 @@ a:hover{
  }
  .name{
  font-family: 'Brown Sugar';
- font-weight: bold;
+ font-weight: 500;
    text-align: center;
    padding-top: 5%;
    font-size: 80px;
@@ -673,10 +693,20 @@ a:hover{
        font-size: 50px;
    }
    .copyright{
-       padding-top: 187%;
+       padding-top: 120%;
        text-align: center;
        font-family: 'Funnel Sans';
    }
+   .copyrightart{
+    padding-top: 20%;
+    text-align: center;
+    font-family: 'Funnel Sans';
+}
+.copyrightcode{
+  padding-top: 20%;
+  text-align: center;
+  font-family: 'Funnel Sans';
+}
 
    /*Menu Page*/
    .exit{
