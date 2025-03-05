@@ -1,228 +1,289 @@
-/*Mobile Phone Sizing*/
-@media only screen and (max-width: 500px){
-   /* Style the navigation menu */
- .topnav {
-  display: block;
-  overflow: hidden;
-  background-color: #333;
-  position: relative;
-  margin-top: 6%;
+/*Large Laptop*/
+@media only screen and (max-width: 1500px){
+  .topnav{
+    display: none;
+  }
+  /*Top of Page*/
+  .socials{
+    position: relative;
+    padding-left: 88%;
+    padding-top: 1%;
 }
-
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
-  display: none;
-}
-
-/* Style navigation menu links */
-.topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-
-/* Style the hamburger menu */
-.topnav a.icon {
-  background: black;
-  display: block;
+.topofpage{
+  width: 99.5%;
+  height: 70%;
+  background-color: rgb(211, 211, 211);
+  margin-top: 7%;
   position: absolute;
-  right: 0;
-  top: 0;
 }
-
-/* Add a grey background color on mouse-over */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+.name{
+font-family: 'Brown Sugar';
+font-weight: bold;
+  text-align: center;
+  padding-top: 5%;
+  font-size: 170px;
 }
-
-/* Style the active link (or home/logo) */
-.active {
-  background-color: transparent;
-  color: white;
-}
-    /*Top of Page*/
-    .socials{
-      display: none;
-  }
-  .topofpage{
-    width: 96%;
-    height: 80%;
-    background-color: rgb(211, 211, 211);
-    margin-top: 5%;
-    position: absolute;
-  }
-  .name{
-  font-family: 'Brown Sugar';
-  font-weight: bold;
-    text-align: center;
-    padding-top: 5%;
-    font-size: 80px;
-  }
-  .about{
-      font-size: 30px;
-      transition: color 0.3s ease-in-out;
-  }
-  .about:hover{
-    cursor: pointer;
-    color: rgb(73, 73, 73);
-  }
-  .aboutlink{
-    text-decoration: none;
-  }
-  .mywork{
+.about{
     font-size: 35px;
     transition: color 0.3s ease-in-out;
+}
+.about:hover{
+  cursor: pointer;
+  color: rgb(73, 73, 73);
+}
+.aboutlink{
+  text-decoration: none;
+}
+.mywork{
+  font-size: 43px;
+  transition: color 0.3s ease-in-out;
+}
+.links{
+  font-family: 'Funnel Sans';
+  color: rgb(73, 73, 73);
+  font-weight: 200;
+  text-align: center;
+  padding-left: 45%;
+  padding-right: 45%;
+}
+.mywork:hover{
+  cursor: pointer;
+  color: #000;
+}
+.worklink{
+  text-decoration: none;
+}
+
+
+.copyright{
+  margin-top: 74%;
+  position: relative;
+  text-align: center;
+  font-family: 'Funnel Sans';
+}
+
+
+/*Column/Row Info*/
+.rowsocials {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    align-items: center;
   }
-  .links{
-    font-family: 'Funnel Sans';
-    color: rgb(73, 73, 73);
-    font-weight: 200;
-    text-align: center;
-    padding-left: 30%;
-    padding-right: 30%;
+  .rowgame {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
   }
-  .mywork:hover{
+  .columngame {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 24.75%;
+    max-height: 30%;
+    padding: 0 4px;
+  }
+
+  .rowanimatics {
+    justify-content: space-evenly;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .animatics{
+    -ms-flex: 25%;
+    flex: 25%;
+    padding-left: 0 4px;
+    margin-left: 17%;
+  }
+
+  .columnsocial{
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 40%;
+    padding: 0 4px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .columnsocial:hover{
     cursor: pointer;
-    color: #000;
+    transform: scale(1.2);
   }
-  .worklink{
-    text-decoration: none;
+  .columnsocial img{
+    width: 100%;
   }
   
-    /*Column/Row Info*/
-    .rowsocials {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      padding: 0 4px;
-      align-items: center;
-    }
-    .columnsocial{
-      -ms-flex: 25%;
-      flex: 25%;
-      max-width: 50%;
-      padding: 0 4px;
-    }
-    .columnsocial:hover{
-      cursor: pointer;
-    }
-    .column {
-      -ms-flex: 50%;
-      flex: 50%;
-      max-width: 100%;
-      padding: 0 4px;
-      align-items: center;
-    }
-    .animatics{
-      -ms-flex: 50%;
-      flex: 50%;
-      padding: 0 4px;
-      align-items: center;
-    }
-    video{
-      max-width: 100%;
-    }
-  
-    .rowsite{
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      padding: 0 4px;
-    }
-    .rowsite img{
-      width: 100%;
-    }
-    .rowsite2{
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      padding: 0 4px;
-    }
-    .rowsite2 img{
-      width: 100%;
-    }
-    .columngame {
-      -ms-flex: 25%;
-      flex: 25%;
-      max-width: 100%;
-      padding: 0 4px;
-    }
-  
-    /*Extra*/
-    .main-headings{
-        padding-top: 3%;
-        text-align: center;
-        font-family: 'Funnel Sans';
-        font-size: 50px;
-    }
-    .copyright{
-        padding-top: 187%;
-        text-align: center;
-        font-family: 'Funnel Sans';
-    }
-
-    /*Menu Page*/
-    .exit{
-      width: 8%;
-      margin-left: 5%;
-      margin-top: 5%;
-    }
-    .art-menu{
-      font-family: 'Funnel Sans';
-      color: #000;
-      font-size: 80px;
-    }
-    .code-menu{
-      font-family: 'Funnel Sans';
-      color: #000;
-      font-size: 80px;
-    }
-    .menu-link{
-      text-decoration: none;
-    }
-    .menu-box{
-      background-color: rgb(177, 177, 177);
-      width: 70%;
-      border-radius: 20px;
-      margin-top: 15%;
-      margin-bottom: 5%;
-    }
-    .menu-row{
-      display: none;
-    }
-
-    .small-menu{
-      font-family: 'Funnel Sans';
-      color: #000;
-      font-size: 25px;
-      transition: color 0.3s ease-in-out;
-      font-weight: 200;
-    }
-    .small-menu:hover{
-      cursor: pointer;
-      color: rgb(141, 141, 141);
-    }
-    .home{
-      text-decoration: none;
-    }
-    .code{
-      margin-left: 1%;
-      text-decoration: none;
-    }
-    .art{
-      margin-left: 1%;
-      text-decoration: none;
-    }
+  .rowsite{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .rowsite img{
+    width: 35%;
+  }
+  .rowsite2{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .rowsite2 img{
+    width: 35%;
   }
 
-  /*iPad Pro Size*/
-  @media only screen and (max-width: 1000px) and (min-width: 500px){
+  /*Extra*/
+  .main-headings{
+    text-align: center;
+    font-family: 'Funnel Sans';
+    font-size: 80px;
+}
+.copyright{
+    padding-top: 2.5%;
+    text-align: center;
+    font-family: 'Funnel Sans';
+}
+a{
+  color: rgb(58, 58, 58);
+}
+a:hover{
+  color: black;
+}
+.secondyear{
+  text-align: center;
+  font-family: 'Funnel Sans';
+  font-size: 30px;
+}
+.webgame{
+  color: black;
+  text-align: center;
+  font-family: 'Funnel Sans';
+  font-size: 30px;
+}
+.sitelink{
+  color: black;
+  text-align: center;
+  font-family: 'Funnel Sans';
+  font-size: 30px;
+}
+
+/*About Page*/
+.back-arrow{
+  transform: rotate(-70deg);
+  max-width: 4%;
+  margin-left: 6%;
+}
+.aboutheading{
+  font-family: 'Brown Sugar';
+  font-weight: bold;
+  text-align: center;
+  font-size: 100px;
+}
+.information1{
+  font-family: 'Funnel Sans';
+  color: #000;
+  font-weight: 200;
+    text-align: center;
+    font-size: 40px;
+    opacity: 0;
+    animation: fadeInUp 1.2s ease-in-out forwards;
+    animation-delay: 0.7s;
+}
+.information1::after{
+  opacity: 1;
+}
+.information2{
+  font-family: 'Funnel Sans';
+  color: #000;
+  font-weight: 200;
+    text-align: center;
+    font-size: 40px;
+    transition: color 0.3s ease-in-out;
+    opacity: 0;
+    animation: fadeInUp 1.5s ease-in-out forwards;
+    animation-delay: 0.7s;
+}
+.information2::after{
+  opacity: 1;
+}
+.information3{
+  font-family: 'Funnel Sans';
+  color: #000;
+  font-weight: 200;
+    text-align: center;
+    font-size: 40px;
+    opacity: 0;
+    animation: fadeInUp 1.7s ease-in-out forwards;
+    animation-delay: 0.7s;
+}
+.information3::after{
+  opacity: 1;
+}
+.cvinfo{
+  font-family: 'Funnel Sans';
+  color: #000;
+  font-weight: 200;
+    text-align: center;
+    font-size: 40px;
+    opacity: 0;
+    animation: fadeInUp 2s ease-in-out forwards;
+    animation-delay: 0.7s;
+}
+.cvinfo::after{
+  opacity: 1;
+}
+
+/*Menu Page*/
+.exit{
+  width: 1.5%;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+.art-menu{
+  font-family: 'Funnel Sans';
+  color: #000;
+  font-size: 100px;
+}
+.code-menu{
+  font-family: 'Funnel Sans';
+  color: #000;
+  font-size: 100px;
+}
+.menu-link{
+  text-decoration: none;
+}
+
+.small-menu{
+  font-family: 'Funnel Sans';
+  color: #000;
+  font-size: 25px;
+  transition: color 0.3s ease-in-out;
+  font-weight: 200;
+}
+.small-menu:hover{
+  cursor: pointer;
+  color: rgb(141, 141, 141);
+}
+.home{
+  text-decoration: none;
+}
+.code{
+  margin-left: 1%;
+  text-decoration: none;
+}
+.art{
+  margin-left: 1%;
+  text-decoration: none;
+}
+}
+
+/*iPad Pro Size*/
+@media only screen and (max-width: 1000px) and (min-width: 500px){
     /* Style the navigation menu */
   .topnav {
    display: block;
@@ -442,4 +503,231 @@
        margin-left: 1%;
        text-decoration: none;
      }
+  }
+
+/*Mobile Phone Sizing*/
+@media only screen and (max-width: 500px){
+  /* Style the navigation menu */
+.topnav {
+ display: block;
+ overflow: hidden;
+ background-color: #333;
+ position: relative;
+ margin-top: 6%;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+ display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+ color: white;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 17px;
+ display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+ background: black;
+ display: block;
+ position: absolute;
+ right: 0;
+ top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+ background-color: #ddd;
+ color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+ background-color: transparent;
+ color: white;
+}
+   /*Top of Page*/
+   .socials{
+     display: none;
+ }
+ .topofpage{
+   width: 96%;
+   height: 80%;
+   background-color: rgb(211, 211, 211);
+   margin-top: 5%;
+   position: absolute;
+ }
+ .name{
+ font-family: 'Brown Sugar';
+ font-weight: bold;
+   text-align: center;
+   padding-top: 5%;
+   font-size: 80px;
+ }
+ .about{
+   position: relative;
+   z-index: 9;
+     font-size: 30px;
+     transition: color 0.3s ease-in-out;
+ }
+ .about:hover{
+   cursor: pointer;
+   color: rgb(73, 73, 73);
+ }
+ .aboutlink{
+   text-decoration: none;
+ }
+ .mywork{
+   position: relative;
+   z-index: 9;
+   font-size: 35px;
+   transition: color 0.3s ease-in-out;
+ }
+ .links{
+   font-family: 'Funnel Sans';
+   color: rgb(73, 73, 73);
+   font-weight: 200;
+   text-align: center;
+   padding-left: 30%;
+   padding-right: 30%;
+ }
+ .mywork:hover{
+   cursor: pointer;
+   color: #000;
+ }
+ .worklink{
+   text-decoration: none;
+ }
+ 
+   /*Column/Row Info*/
+   .rowsocials {
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
+     padding: 0 4px;
+     align-items: center;
    }
+   .columnsocial{
+     -ms-flex: 25%;
+     flex: 25%;
+     max-width: 50%;
+     padding: 0 4px;
+   }
+   .columnsocial:hover{
+     cursor: pointer;
+   }
+   .column {
+     -ms-flex: 50%;
+     flex: 50%;
+     max-width: 100%;
+     padding: 0 4px;
+     align-items: center;
+   }
+   .animatics{
+     -ms-flex: 50%;
+     flex: 50%;
+     padding: 0 4px;
+     align-items: center;
+   }
+   video{
+     max-width: 100%;
+   }
+ 
+   .rowsite{
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
+     padding: 0 4px;
+   }
+   .rowsite img{
+     width: 100%;
+   }
+   .rowsite2{
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
+     padding: 0 4px;
+   }
+   .rowsite2 img{
+     width: 100%;
+   }
+   .columngame {
+     -ms-flex: 25%;
+     flex: 25%;
+     max-width: 100%;
+     padding: 0 4px;
+   }
+ 
+   /*Extra*/
+   .main-headings{
+       padding-top: 3%;
+       text-align: center;
+       font-family: 'Funnel Sans';
+       font-size: 50px;
+   }
+   .copyright{
+       padding-top: 187%;
+       text-align: center;
+       font-family: 'Funnel Sans';
+   }
+
+   /*Menu Page*/
+   .exit{
+     width: 8%;
+     margin-left: 5%;
+     margin-top: 5%;
+   }
+   .art-menu{
+     font-family: 'Funnel Sans';
+     color: #000;
+     font-size: 80px;
+   }
+   .code-menu{
+     font-family: 'Funnel Sans';
+     color: #000;
+     font-size: 80px;
+   }
+   .menu-link{
+     text-decoration: none;
+   }
+   .menu-box{
+     background-color: rgb(177, 177, 177);
+     width: 70%;
+     border-radius: 20px;
+     margin-top: 15%;
+     margin-bottom: 5%;
+   }
+   .menu-row{
+     display: none;
+   }
+
+   .small-menu{
+     font-family: 'Funnel Sans';
+     color: #000;
+     font-size: 25px;
+     transition: color 0.3s ease-in-out;
+     font-weight: 200;
+   }
+   .small-menu:hover{
+     cursor: pointer;
+     color: rgb(141, 141, 141);
+   }
+   .home{
+     text-decoration: none;
+   }
+   .code{
+     margin-left: 1%;
+     text-decoration: none;
+   }
+   .art{
+     margin-left: 1%;
+     text-decoration: none;
+   }
+ }
