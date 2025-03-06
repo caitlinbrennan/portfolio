@@ -8,32 +8,33 @@ body{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
+}
 @font-face {
   font-family: 'Brown Sugar';
   src: url(../../Brown-Sugar/BrownSugar.otf);
 }
-/*Image Rows*/
-  .row {
+
+
+/*Rows*/
+.row {
     display: -ms-flexbox; /* IE10 */
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
     align-items: flex-start;
     flex-wrap: wrap;
     padding: 0 4px;
-  }
-  .column {
+}
+.column {
     -ms-flex: 25%;
     flex: 25%;
     max-width: 24.75%;
     padding: 0 4px;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 .column img {
   flex-shrink: 1;
 }
-
 .menurow {
   display: -ms-flexbox; /* IE10 */
   display: flex;
@@ -59,6 +60,94 @@ body{
   flex-wrap: wrap;
   padding: 0 4px;
   margin-left: 5%;
+}
+.ThreeDrow {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.rowsocials {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  align-items: center;
+}
+.rowgame {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.rowanimatics {
+  justify-content: space-evenly;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.rowsite{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/*Columns*/
+.columngame {
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 24.75%;
+  max-height: 30%;
+  padding: 0 4px;
+}
+.animatics{
+  -ms-flex: 25%;
+  flex: 25%;
+  padding-left: 0 4px;
+  margin-left: 17%;
+}
+.columnsocial{
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  transition: transform 0.3s ease-in-out;
+}
+.columnsocial:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.columnsocial img{
+  width: 100%;
+}
+.ThreeDcolumn {
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 24.75%;
+  padding: 0 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.columnsocial:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.columnsocial img{
+  width: 100%;
+}
+.columnsites{
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 35%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -90,6 +179,7 @@ body{
   transform: translateY(20px);
   animation: fadeInUp 0.4s ease-in-out forwards;
 }
+
 @keyframes fadeIn {
   0% {
       opacity: 0;
@@ -122,7 +212,6 @@ body{
   transform: scaleX(0);
   transition: transform 0.4s ease-in-out;
 }
-
 .about:hover::after {
   transform: scaleX(1);
 }
@@ -148,11 +237,175 @@ body{
   transform: scaleX(1);
 }
 
-
+/*Same for all pages*/
+.about:hover{
+  cursor: pointer;
+  color: rgb(73, 73, 73);
+}
+.aboutlink{
+  text-decoration: none;
+}
 .subheadingsbox{
   color: rgb(177, 177, 177);
   width: 99%;
 }
+.links{
+  font-family: 'Funnel Sans';
+  color: rgb(73, 73, 73);
+  font-weight: 200;
+  text-align: center;
+  padding-left: 45%;
+  padding-right: 45%;
+}
+.mywork:hover{
+  cursor: pointer;
+  color: #000;
+}
+.worklink{
+  text-decoration: none;
+}
+
+.main-headings{
+  text-align: center;
+  font-family: 'Funnel Sans';
+}
+.subheadings{
+  text-align: center;
+  font-family: 'Funnel Sans';
+}
+.artheadings{
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Funnel Sans';
+}
+.codeheadings{
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Funnel Sans';
+}
+
+.subart{
+  color: rgb(58, 58, 58);
+}
+.subart:hover{
+  color: black;
+}
+.info{
+  text-align: center;
+  font-family: 'Funnel Sans';
+}
+
+.copyright{
+  text-align: center;
+  font-family: 'Funnel Sans';
+}
+.copyrightart{
+  text-align: center;
+  font-family: 'Funnel Sans';
+}
+.copyrightcode{
+  text-align: center;
+  font-family: 'Funnel Sans';
+}
+.copyrightabout{
+  text-align: center;
+  font-family: 'Funnel Sans';
+}
+
+a{
+  color: rgb(58, 58, 58);
+}
+a:hover{
+  color: black;
+}
+.secondyear{
+  color: black;
+  text-align: center;
+  font-family: 'Funnel Sans';
+}
+.webgame{
+  color: black;
+  text-align: center;
+  font-family: 'Funnel Sans';
+}
+.sitelink{
+  color: black;
+  text-align: center;
+  font-family: 'Funnel Sans';
+}
+
+.aboutheading{
+  font-family: 'Brown Sugar';
+  font-weight: bold;
+  text-align: center;
+}
+.information1{
+  font-family: 'Funnel Sans';
+  color: #000;
+  font-weight: 200;
+    text-align: center;
+    opacity: 0;
+    animation: fadeInUp 1.2s ease-in-out forwards;
+    animation-delay: 0.7s;
+}
+.information1::after{
+  opacity: 1;
+}
+.information2{
+  font-family: 'Funnel Sans';
+  color: #000;
+  font-weight: 200;
+    text-align: center;
+    transition: color 0.3s ease-in-out;
+    opacity: 0;
+    animation: fadeInUp 1.5s ease-in-out forwards;
+    animation-delay: 0.7s;
+}
+.information2::after{
+  opacity: 1;
+}
+.information3{
+  font-family: 'Funnel Sans';
+  color: #000;
+  font-weight: 200;
+    text-align: center;
+    opacity: 0;
+    animation: fadeInUp 1.7s ease-in-out forwards;
+    animation-delay: 0.7s;
+}
+.information3::after{
+  opacity: 1;
+}
+.cvinfo{
+  font-family: 'Funnel Sans';
+  color: #000;
+  font-weight: 200;
+    text-align: center;
+    opacity: 0;
+    animation: fadeInUp 2s ease-in-out forwards;
+    animation-delay: 0.7s;
+}
+.cvinfo::after{
+  opacity: 1;
+}
+
+.small-menu{
+  font-family: 'Funnel Sans';
+  color: #000;
+  transition: color 0.3s ease-in-out;
+  font-weight: 200;
+}
+.menu-link{
+  text-decoration: none;
+}
+.small-menu:hover{
+  cursor: pointer;
+  color: rgb(141, 141, 141);
+}
+.home{
+  text-decoration: none;
+}
+
 
 /*Widescreen Monitor*/
 @media only screen and (max-width: 4000px){
@@ -184,208 +437,52 @@ body{
         margin-bottom: 45%;
         transition: color 0.3s ease-in-out;
     }
-    .about:hover{
-      cursor: pointer;
-      color: rgb(73, 73, 73);
-    }
-    .aboutlink{
-      text-decoration: none;
-    }
     .mywork{
       font-size: 65px;
       transition: color 0.3s ease-in-out;
     }
-    .links{
-      font-family: 'Funnel Sans';
-      color: rgb(73, 73, 73);
-      font-weight: 200;
-      text-align: center;
-      padding-left: 45%;
-      padding-right: 45%;
-    }
-    .mywork:hover{
-      cursor: pointer;
-      color: #000;
-    }
-    .worklink{
-      text-decoration: none;
-    }
 
-
-    /*Column/Row Info*/
-    .ThreeDrow {
-      display: -ms-flexbox; /* IE10 */
-      display: flex;
-      -ms-flex-wrap: wrap; /* IE10 */
-      align-items: flex-start;
-      flex-wrap: wrap;
-      padding: 0 4px;
-    }
-    .ThreeDcolumn {
-      -ms-flex: 25%;
-      flex: 25%;
-      max-width: 24.75%;
-      padding: 0 4px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .rowsocials {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        padding: 0 4px;
-        align-items: center;
-      }
-      .rowgame {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        padding: 0 4px;
-      }
-      .columngame {
-        -ms-flex: 25%;
-        flex: 25%;
-        max-width: 24.75%;
-        max-height: 30%;
-        padding: 0 4px;
-      }
-      
-      .rowanimatic {
-        justify-content:space-between;
-        display: -ms-flexbox; /* IE10 */
-        display: flex;
-        -ms-flex-wrap: wrap; /* IE10 */
-        align-items: flex-start;
-        flex-wrap: wrap;
-        padding: 0 4px;
-      }
-      .rowanimatics {
-        justify-content: space-evenly;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-      }
-      .animatics{
-        -ms-flex: 25%;
-        flex: 25%;
-        padding-left: 0 4px;
-        margin-left: 17%;
-      }
-
-      .columnsocial{
-        -ms-flex: 25%;
-        flex: 25%;
-        max-width: 25%;
-        padding: 0 4px;
-        transition: transform 0.3s ease-in-out;
-      }
-      .columnsocial:hover{
-        cursor: pointer;
-        transform: scale(1.2);
-      }
-      .columnsocial img{
-        width: 100%;
-      }
-      
-      .rowsite{
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        padding: 0 4px;
-      }
-      .columnsites{
-        -ms-flex: 25%;
-        flex: 25%;
-        max-width: 35%;
-        margin-left: auto;
-        margin-right: auto;
-      }
       /*Extra*/
     .main-headings{
-        text-align: center;
-        font-family: 'Funnel Sans';
         font-size: 80px;
     }
     .subheadings{
-      text-align: center;
-      font-family: 'Funnel Sans';
       font-size: 40px;
       margin-bottom: 4%;
     }
     .artheadings{
-      text-align: center;
       font-size: 50px;
-      font-weight: 400;
-      font-family: 'Funnel Sans';
     }
     .codeheadings{
-      text-align: center;
       font-size: 50px;
-      font-weight: 400;
-      font-family: 'Funnel Sans';
     }
     .subart{
       padding-left: 2%;
       padding-right: 2%;
       text-decoration: none;
     }
-    .subart{
-      color: rgb(58, 58, 58);
-    }
-    .subart:hover{
-      color: black;
-    }
     .info{
-      text-align: center;
-      font-family: 'Funnel Sans';
       font-size: 20px;
     }
     .copyright{
       padding-top: 33.5%;
-        text-align: center;
-        font-family: 'Funnel Sans';
     }
     .copyrightart{
       padding-top: 3%;
-      text-align: center;
-      font-family: 'Funnel Sans';
   }
   .copyrightcode{
     padding-top: 3%;
-    text-align: center;
-    font-family: 'Funnel Sans';
   }
   .copyrightabout{
     padding-top: 1%;
-    text-align: center;
-    font-family: 'Funnel Sans';
   }
-    a{
-      color: rgb(58, 58, 58);
-    }
-    a:hover{
-      color: black;
-    }
     .secondyear{
-      text-align: center;
-      font-family: 'Funnel Sans';
       font-size: 30px;
     }
     .webgame{
-      text-align: center;
-      color: black;
-      font-family: 'Funnel Sans';
       font-size: 30px;
     }
     .sitelink{
-      color: black;
-      text-align: center;
-      font-family: 'Funnel Sans';
       font-size: 30px;
     }
 
@@ -396,65 +493,20 @@ body{
       margin-left: 6%;
     }
     .aboutheading{
-      font-family: 'Brown Sugar';
-      font-weight: bold;
-      text-align: center;
       font-size: 100px;
     }
     .information1{
-      font-family: 'Funnel Sans';
-      color: #000;
-      font-weight: 200;
-        text-align: center;
-        font-size: 40px;
-        opacity: 0;
-        animation: fadeInUp 1.2s ease-in-out forwards;
-        animation-delay: 0.7s;
-    }
-    .information1::after{
-      opacity: 1;
+      font-size: 40px;
     }
     .information2{
-      font-family: 'Funnel Sans';
-      color: #000;
-      font-weight: 200;
-        text-align: center;
         font-size: 40px;
-        transition: color 0.3s ease-in-out;
-        opacity: 0;
-        animation: fadeInUp 1.5s ease-in-out forwards;
-        animation-delay: 0.7s;
-    }
-    .information2::after{
-      opacity: 1;
     }
     .information3{
-      font-family: 'Funnel Sans';
-      color: #000;
-      font-weight: 200;
-        text-align: center;
         font-size: 40px;
-        opacity: 0;
-        animation: fadeInUp 1.7s ease-in-out forwards;
-        animation-delay: 0.7s;
-    }
-    .information3::after{
-      opacity: 1;
     }
     .cvinfo{
-      font-family: 'Funnel Sans';
-      color: #000;
-      font-weight: 200;
-        text-align: center;
         font-size: 40px;
-        opacity: 0;
-        animation: fadeInUp 2s ease-in-out forwards;
-        animation-delay: 0.7s;
     }
-    .cvinfo::after{
-      opacity: 1;
-    }
-
     /*Menu Page*/
     .exit{
       width: 1.5%;
@@ -471,23 +523,9 @@ body{
       color: #000;
       font-size: 100px;
     }
-    .menu-link{
-      text-decoration: none;
-    }
 
     .small-menu{
-      font-family: 'Funnel Sans';
-      color: #000;
       font-size: 25px;
-      transition: color 0.3s ease-in-out;
-      font-weight: 200;
-    }
-    .small-menu:hover{
-      cursor: pointer;
-      color: rgb(141, 141, 141);
-    }
-    .home{
-      text-decoration: none;
     }
     .code{
       margin-left: 1%;
@@ -530,107 +568,10 @@ font-weight: 500;
     transition: color 0.3s ease-in-out;
     margin-bottom: 45%;
 }
-.about:hover{
-  cursor: pointer;
-  color: rgb(73, 73, 73);
-}
-.aboutlink{
-  text-decoration: none;
-}
 .mywork{
   font-size: 45px;
   transition: color 0.3s ease-in-out;
 }
-.links{
-  font-family: 'Funnel Sans';
-  color: rgb(73, 73, 73);
-  font-weight: 200;
-  text-align: center;
-  padding-left: 45%;
-  padding-right: 45%;
-}
-.mywork:hover{
-  cursor: pointer;
-  color: #000;
-}
-.worklink{
-  text-decoration: none;
-}
-
-
-/*Column/Row Info*/
-.rowsocials {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding: 0 4px;
-    align-items: center;
-  }
-  .rowgame {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-  .columngame {
-    -ms-flex: 25%;
-    flex: 25%;
-    max-width: 24.75%;
-    max-height: 30%;
-    padding: 0 4px;
-  }
-
-  .rowanimatics {
-    justify-content: space-evenly;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-  .animatics{
-    -ms-flex: 25%;
-    flex: 25%;
-    padding-left: 0 4px;
-    margin-left: 17%;
-  }
-
-  .columnsocial{
-    -ms-flex: 25%;
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-    transition: transform 0.3s ease-in-out;
-  }
-  .columnsocial:hover{
-    cursor: pointer;
-    transform: scale(1.2);
-  }
-  .columnsocial img{
-    width: 100%;
-  }
-  
-  .rowsite{
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-  .rowsite img{
-    width: 35%;
-  }
-  .rowsite2{
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-  .rowsite2 img{
-    width: 35%;
-  }
 
   /*Extra*/
   .main-headings{
@@ -640,40 +581,20 @@ font-weight: 500;
 }
 .copyright{
   padding-top: 44%;
-  text-align: center;
-  font-family: 'Funnel Sans';
 }
 .copyrightart{
   padding-top: 3%;
-  text-align: center;
-  font-family: 'Funnel Sans';
 }
 .copyrightcode{
 padding-top: 3%;
-text-align: center;
-font-family: 'Funnel Sans';
-}
-a{
-  color: rgb(58, 58, 58);
-}
-a:hover{
-  color: black;
 }
 .secondyear{
-  text-align: center;
-  font-family: 'Funnel Sans';
   font-size: 30px;
 }
 .webgame{
-  color: black;
-  text-align: center;
-  font-family: 'Funnel Sans';
   font-size: 30px;
 }
 .sitelink{
-  color: black;
-  text-align: center;
-  font-family: 'Funnel Sans';
   font-size: 30px;
 }
 
@@ -684,63 +605,19 @@ a:hover{
   margin-left: 6%;
 }
 .aboutheading{
-  font-family: 'Brown Sugar';
-  font-weight: bold;
-  text-align: center;
   font-size: 100px;
 }
 .information1{
-  font-family: 'Funnel Sans';
-  color: #000;
-  font-weight: 200;
-    text-align: center;
-    font-size: 40px;
-    opacity: 0;
-    animation: fadeInUp 1.2s ease-in-out forwards;
-    animation-delay: 0.7s;
-}
-.information1::after{
-  opacity: 1;
+  font-size: 40px;
 }
 .information2{
-  font-family: 'Funnel Sans';
-  color: #000;
-  font-weight: 200;
-    text-align: center;
-    font-size: 40px;
-    transition: color 0.3s ease-in-out;
-    opacity: 0;
-    animation: fadeInUp 1.5s ease-in-out forwards;
-    animation-delay: 0.7s;
-}
-.information2::after{
-  opacity: 1;
+  font-size: 40px;
 }
 .information3{
-  font-family: 'Funnel Sans';
-  color: #000;
-  font-weight: 200;
-    text-align: center;
-    font-size: 40px;
-    opacity: 0;
-    animation: fadeInUp 1.7s ease-in-out forwards;
-    animation-delay: 0.7s;
-}
-.information3::after{
-  opacity: 1;
+  font-size: 40px;
 }
 .cvinfo{
-  font-family: 'Funnel Sans';
-  color: #000;
-  font-weight: 200;
-    text-align: center;
-    font-size: 40px;
-    opacity: 0;
-    animation: fadeInUp 2s ease-in-out forwards;
-    animation-delay: 0.7s;
-}
-.cvinfo::after{
-  opacity: 1;
+  font-size: 40px;
 }
 
 /*Menu Page*/
@@ -759,23 +636,9 @@ a:hover{
   color: #000;
   font-size: 100px;
 }
-.menu-link{
-  text-decoration: none;
-}
 
 .small-menu{
-  font-family: 'Funnel Sans';
-  color: #000;
   font-size: 25px;
-  transition: color 0.3s ease-in-out;
-  font-weight: 200;
-}
-.small-menu:hover{
-  cursor: pointer;
-  color: rgb(141, 141, 141);
-}
-.home{
-  text-decoration: none;
 }
 .code{
   margin-left: 1%;
@@ -816,150 +679,33 @@ font-weight: 500;
     font-size: 35px;
     transition: color 0.3s ease-in-out;
 }
-.about:hover{
-  cursor: pointer;
-  color: rgb(73, 73, 73);
-}
-.aboutlink{
-  text-decoration: none;
-}
 .mywork{
   font-size: 43px;
   transition: color 0.3s ease-in-out;
 }
-.links{
-  font-family: 'Funnel Sans';
-  color: rgb(73, 73, 73);
-  font-weight: 200;
-  text-align: center;
-  padding-left: 45%;
-  padding-right: 45%;
-}
-.mywork:hover{
-  cursor: pointer;
-  color: #000;
-}
-.worklink{
-  text-decoration: none;
-}
-
-
-/*Column/Row Info*/
-.rowsocials {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding: 0 4px;
-    align-items: center;
-  }
-  .rowgame {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-  .columngame {
-    -ms-flex: 25%;
-    flex: 25%;
-    max-width: 24.75%;
-    max-height: 30%;
-    padding: 0 4px;
-  }
-
-  .rowanimatics {
-    justify-content: space-evenly;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-  .animatics{
-    -ms-flex: 25%;
-    flex: 25%;
-    padding-left: 0 4px;
-    margin-left: 17%;
-  }
-
-  .columnsocial{
-    -ms-flex: 25%;
-    flex: 25%;
-    max-width: 30%;
-    padding: 0 4px;
-    transition: transform 0.3s ease-in-out;
-  }
-  .columnsocial:hover{
-    cursor: pointer;
-    transform: scale(1.2);
-  }
-  .columnsocial img{
-    width: 100%;
-  }
-  
-  .rowsite{
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-  .rowsite img{
-    width: 35%;
-  }
-  .rowsite2{
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-  .rowsite2 img{
-    width: 35%;
-  }
 
   /*Extra*/
-  .main-headings{
+.main-headings{
     text-align: center;
     font-family: 'Funnel Sans';
     font-size: 80px;
 }
 .copyright{
     padding-top: 4%;
-    text-align: center;
-    font-family: 'Funnel Sans';
 }
 .copyrightart{
   padding-top: 3%;
-  text-align: center;
-  font-family: 'Funnel Sans';
 }
 .copyrightcode{
-padding-top: 3%;
-text-align: center;
-font-family: 'Funnel Sans';
-}
-a{
-  color: rgb(58, 58, 58);
-}
-a:hover{
-  color: black;
+  padding-top: 3%;
 }
 .secondyear{
-  text-align: center;
-  font-family: 'Funnel Sans';
   font-size: 30px;
 }
 .webgame{
-  color: black;
-  text-align: center;
-  font-family: 'Funnel Sans';
   font-size: 30px;
 }
 .sitelink{
-  color: black;
-  text-align: center;
-  font-family: 'Funnel Sans';
   font-size: 30px;
 }
 
@@ -976,57 +722,16 @@ a:hover{
   font-size: 100px;
 }
 .information1{
-  font-family: 'Funnel Sans';
-  color: #000;
-  font-weight: 200;
-    text-align: center;
-    font-size: 40px;
-    opacity: 0;
-    animation: fadeInUp 1.2s ease-in-out forwards;
-    animation-delay: 0.7s;
-}
-.information1::after{
-  opacity: 1;
+  font-size: 40px;
 }
 .information2{
-  font-family: 'Funnel Sans';
-  color: #000;
-  font-weight: 200;
-    text-align: center;
-    font-size: 40px;
-    transition: color 0.3s ease-in-out;
-    opacity: 0;
-    animation: fadeInUp 1.5s ease-in-out forwards;
-    animation-delay: 0.7s;
-}
-.information2::after{
-  opacity: 1;
+  font-size: 40px;
 }
 .information3{
-  font-family: 'Funnel Sans';
-  color: #000;
-  font-weight: 200;
-    text-align: center;
-    font-size: 40px;
-    opacity: 0;
-    animation: fadeInUp 1.7s ease-in-out forwards;
-    animation-delay: 0.7s;
-}
-.information3::after{
-  opacity: 1;
+  font-size: 40px;
 }
 .cvinfo{
-  font-family: 'Funnel Sans';
-  color: #000;
-  font-weight: 200;
-    text-align: center;
-    font-size: 40px;
-    opacity: 0;
-    animation: fadeInUp 2s ease-in-out forwards;
-    animation-delay: 0.7s;
-}
-.cvinfo::after{
-  opacity: 1;
+  font-size: 40px;
 }
 
 /*Menu Page*/
@@ -1045,23 +750,9 @@ a:hover{
   color: #000;
   font-size: 100px;
 }
-.menu-link{
-  text-decoration: none;
-}
 
 .small-menu{
-  font-family: 'Funnel Sans';
-  color: #000;
   font-size: 25px;
-  transition: color 0.3s ease-in-out;
-  font-weight: 200;
-}
-.small-menu:hover{
-  cursor: pointer;
-  color: rgb(141, 141, 141);
-}
-.home{
-  text-decoration: none;
 }
 .code{
   margin-left: 1%;
