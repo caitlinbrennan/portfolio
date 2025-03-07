@@ -318,20 +318,15 @@ a{
 a:hover{
   color: black;
 }
-.secondyear{
-  color: black;
-  text-align: center;
-  font-family: 'Funnel Sans';
-}
-.webgame{
-  color: black;
-  text-align: center;
-  font-family: 'Funnel Sans';
-}
 .sitelink{
-  color: black;
+  color: rgb(58, 58, 58);
   text-align: center;
   font-family: 'Funnel Sans';
+  cursor: pointer;
+  text-decoration: underline;
+}
+.sitelink:hover{
+  color: #000;
 }
 
 .aboutheading{
@@ -699,6 +694,7 @@ font-weight: 500;
 .copyrightcode{
   padding-top: 3%;
 }
+
 .secondyear{
   font-size: 30px;
 }
