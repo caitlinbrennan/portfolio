@@ -11,8 +11,13 @@ body{
 }
 @font-face {
   font-family: 'Brown Sugar';
-  src: url(../../Brown-Sugar/BrownSugar.otf);
+  src: url('BrownSugar.woff2') format('woff2'),
+      url('BrownSugar.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
+
 
 
 /*Rows*/
@@ -391,6 +396,9 @@ a:hover{
   font-weight: 200;
 }
 .menu-link{
+  text-decoration: none;
+}
+.menu-link-2{
   text-decoration: none;
 }
 .small-menu:hover{
