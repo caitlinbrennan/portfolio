@@ -439,6 +439,84 @@ a:hover{
 }
 
 
+.dark-mode{
+  .topofpage{
+    background-color: #2e2e2e;
+    color: white;
+  }
+  .worklink{
+    color: white;
+  }
+  .worklink:hover{
+    color:rgb(184, 184, 184);
+  }
+  .aboutlink{
+    color: white;
+  }
+  .aboutlink:hover{
+    color:rgb(184, 184, 184);
+  }
+  .socials{
+    color: grey;
+  }
+  .copyright{
+    color: white;
+  }
+
+  .menu-box{
+    background-color: #2e2e2e;
+  }
+  .art-menu{
+    color: white;
+  }
+  .code-menu{
+    color: white;
+  }
+  .exit{
+    background-color: #ccc;
+  }
+  .small-menu{
+    color: white;
+  }
+
+  .subart{
+    color: white;
+  }
+  .main-headings{
+    color: white;
+  }
+  .artheadings{
+    color: white;
+  }
+  .info{
+    color: white;
+  }
+  .copyrightart{
+    color: white;
+  }
+  .sub-headings{
+    color: white;
+  }
+  .achievements{
+    color: white;
+    background-color: rgb(78, 78, 78);
+    box-shadow: 8px 8px rgb(51, 51, 51);
+  }
+  .codeheadings{
+    color: white;
+  }
+  .sitelink{
+    color: lightgrey;
+  }
+  .sitelink:hover{
+    color: grey;
+  }
+  .copyrightcode{
+    color: white;
+  }
+  background-color: rgb(32, 32, 32);
+}
+
 /*Widescreen Monitor*/
 @media only screen and (max-width: 4000px){
   .topnav{
@@ -547,6 +625,34 @@ a:hover{
     .achievements{
       font-size: 40px;
       padding-bottom: 4%;
+      padding-top: 3%;
+      width: 49%;
+      margin-left: 25%;
+      background-color: #e7e5e5;
+      box-shadow: 8px 8px grey;
+      border-radius: 10px;
+    }
+
+    .informationsection{
+      background-color: #e7e5e5;
+      box-shadow: 8px 8px grey;
+      border-radius: 10px;
+      width: 40%;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      margin-left: 29.5%;
+    }
+    .cvsection{
+      margin-top: 3%;
+      background-color: #e7e5e5;
+      box-shadow: 8px 8px grey;
+      border-radius: 10px;
+      width: 40%;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      padding-left: 2%;
+      padding-right: 2%;
+      margin-left: 27.5%;
     }
 
     /*Menu Page*/
@@ -577,7 +683,7 @@ a:hover{
       margin-left: 1%;
       text-decoration: none;
     }
-    .aboutlink{
+    .about-link{
       margin-left: 1%;
       text-decoration: underline;
       margin-left: 3%;
@@ -588,6 +694,9 @@ a:hover{
       margin-left: 1.5%;
     }
 
+    label {
+      font-family: 'Funnel Sans';
+    }
     input[type=text], [type=email], select, textarea {
       width: 100%;
       padding: 12px;
@@ -597,9 +706,10 @@ a:hover{
       margin-top: 6px;
       margin-bottom: 16px;
       resize: vertical;
+      font-family: 'Funnel Sans';
     }
     input[type=submit] {
-      background-color: #04AA6D;
+      background-color: grey;
       color: white;
       padding: 12px 20px;
       border: none;
@@ -607,14 +717,15 @@ a:hover{
       cursor: pointer;
     }
     input[type=submit]:hover {
-      background-color: #45a049;
+      background-color: rgb(97, 97, 97);
     }
     .container{
       border-radius: 5px;
-      background-color: #f2f2f2;
+      background-color: #cec6c6;
       padding: 20px;
-      margin-left: 20%;
-      margin-right: 20%;
+      margin-left: 30%;
+      margin-right: 30%;
+      box-shadow: 8px 8px grey;
     }
 }
 

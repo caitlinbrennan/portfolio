@@ -32,24 +32,25 @@
                     <a href="../portfolio/index.html" class="home"><h4 class="small-menu" style="margin-left: 1%;">Home</h4></a>
                     <a href="../portfolio/art.html" class="art"><h4 class="small-menu" style="margin-left: 1%;">Art</h4></a>
                     <a href="../portfolio/achievements.html" class="code"><h4 class="small-menu" style="margin-left: 1%;">Achievements</h4></a>
-                    <a href="../portfolio/aboutme.html" class="aboutlink" style="margin-left: 80%;"><h4 class="small-menu">About</h4></a>
+                    <a href="../portfolio/aboutme.html" class="about-link" style="margin-left: 80%;"><h4 class="small-menu">About</h4></a>
                     <a href="../portfolio/contact.html" class="contact"><h4 class="small-menu">Contact</h4></a>
                 </div>
 
+                <button onclick="darkMode()">Toggle</button>
                 <h2 class="main-headings">Contact Me</h2>
 
             <div class="container">
                 <form action="https://api.web3forms.com/submit" method="POST">
                     <input type="hidden" name="access_key" value="aa18f1d0-b8a5-4a62-9540-df4d0221b2a6">
-                    
+
                     <label for="name">Name</label>
                     <input type="text" id="fname" name="name" placeholder="Your name..." required>
 
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" placeholder="Email..." required>
 
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px" required></textarea>
+                    <label for="message">Subject</label>
+                    <textarea id="text" name="message" placeholder="Write something..." style="height:200px" required></textarea>
 
                     <input type="submit" value="Submit">
                 </form>

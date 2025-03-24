@@ -30,3 +30,8 @@ function openHeadphone(){
 function openGame(){
   window.open("file:///C:/Users/idaduser/OneDrive%20-%20South%20East%20Technological%20University/Year%202/Semester%201/UI/Programming/Caitlin_Brennan_C00282149-UI-Programming-Module-Project/index.html");
 }
+
+function darkMode() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
