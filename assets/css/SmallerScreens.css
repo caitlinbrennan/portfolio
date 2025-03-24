@@ -81,6 +81,14 @@ padding-top: 3%;
   font-size: 40px;
 }
 
+.sub-headings{
+  font-size: 33px;
+}
+.achievements{
+  font-size: 33px;
+  padding-bottom: 4%;
+}
+
 /*Menu Page*/
 .exit{
   width: 1.5%;
@@ -145,6 +153,14 @@ padding-top: 3%;
     .active {
       background-color: transparent;
       color: white;
+    }
+
+    .sub-headings{
+      font-size: 25px;
+    }
+    .achievements{
+      font-size: 25px;
+      padding-bottom: 4%;
     }
 
 /*Top of Page*/
@@ -300,6 +316,14 @@ padding-top: 3%;
    font-size: 35px;
    transition: color 0.3s ease-in-out;
  }
+
+ .sub-headings{
+  font-size: 20px;
+}
+.achievements{
+  font-size: 20px;
+  padding-bottom: 4%;
+}
 
    video{
      max-width: 100%;

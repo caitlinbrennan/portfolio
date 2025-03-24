@@ -393,6 +393,31 @@ a:hover{
   opacity: 1;
 }
 
+.sub-headings{
+  font-family: 'Funnel Sans';
+  color: #000;
+  font-weight: 200;
+    text-align: center;
+    opacity: 0;
+    animation: fadeInUp 2s ease-in-out forwards;
+    animation-delay: 0.7s;
+}
+.sub-headings::after{
+  opacity: 1;
+}
+.achievements{
+  font-family: 'Funnel Sans';
+  color: #000;
+  font-weight: 200;
+    text-align: center;
+    opacity: 0;
+    animation: fadeInUp 2s ease-in-out forwards;
+    animation-delay: 0.7s;
+}
+.achievements::after{
+  opacity: 1;
+}
+
 .small-menu{
   font-family: 'Funnel Sans';
   color: #000;
@@ -452,6 +477,7 @@ a:hover{
       /*Extra*/
     .main-headings{
         font-size: 80px;
+        padding-bottom: 2%;
     }
     .subheadings{
       font-size: 40px;
@@ -514,6 +540,15 @@ a:hover{
     .cvinfo{
         font-size: 40px;
     }
+
+    .sub-headings{
+      font-size: 40px;
+    }
+    .achievements{
+      font-size: 40px;
+      padding-bottom: 4%;
+    }
+
     /*Menu Page*/
     .exit{
       width: 1.5%;
@@ -541,6 +576,11 @@ a:hover{
     .art{
       margin-left: 1%;
       text-decoration: none;
+    }
+    .aboutlink{
+      margin-left: 1%;
+      text-decoration: underline;
+      margin-left: 82%;
     }
 }
 
@@ -625,6 +665,14 @@ padding-top: 3%;
 }
 .cvinfo{
   font-size: 40px;
+}
+
+.sub-headings{
+  font-size: 40px;
+}
+.achievements{
+  font-size: 40px;
+  padding-bottom: 4%;
 }
 
 /*Menu Page*/
@@ -740,6 +788,14 @@ font-weight: 500;
 }
 .cvinfo{
   font-size: 40px;
+}
+
+.sub-headings{
+  font-size: 40px;
+}
+.achievements{
+  font-size: 40px;
+  padding-bottom: 4%;
 }
 
 /*Menu Page*/
