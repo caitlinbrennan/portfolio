@@ -275,6 +275,7 @@ body{
 }
 
 .main-headings{
+  transition: color 0.3s ease-in-out;
   text-align: center;
   font-family: 'Funnel Sans';
 }
@@ -283,23 +284,27 @@ body{
   font-family: 'Funnel Sans';
 }
 .artheadings{
+  transition: color 0.3s ease-in-out;
   text-align: center;
   font-weight: 400;
   font-family: 'Funnel Sans';
 }
 .codeheadings{
+  transition: color 0.3s ease-in-out;
   text-align: center;
   font-weight: 400;
   font-family: 'Funnel Sans';
 }
 
 .subart{
+  transition: color 0.3s ease-in-out;
   color: rgb(58, 58, 58);
 }
 .subart:hover{
   color: black;
 }
 .info{
+  transition: color 0.3s ease-in-out;
   text-align: center;
   font-family: 'Funnel Sans';
 }
@@ -328,6 +333,7 @@ a:hover{
   color: black;
 }
 .sitelink{
+  transition: color 0.3s ease-in-out;
   color: rgb(58, 58, 58);
   text-align: center;
   font-family: 'Funnel Sans';
@@ -438,38 +444,107 @@ a:hover{
   text-decoration: none;
 }
 
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #6e7072;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: rgb(54, 54, 54);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #ccc;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
 
 .dark-mode{
+  .slider::before {
+    background-color: white;
+  }
   .topofpage{
     background-color: #2e2e2e;
     color: white;
+    transition: color 0.1s ease-in-out;
   }
   .worklink{
     color: white;
+    transition: color 0.3s ease-in-out;
   }
   .worklink:hover{
     color:rgb(184, 184, 184);
   }
   .aboutlink{
     color: white;
+    transition: color 0.3s ease-in-out;
   }
   .aboutlink:hover{
     color:rgb(184, 184, 184);
   }
   .socials{
     color: grey;
+    transition: color 0.3s ease-in-out;
   }
   .copyright{
     color: white;
+    transition: color 0.3s ease-in-out;
   }
 
   .menu-box{
     background-color: #2e2e2e;
   }
   .art-menu{
+    transition: color 0.3s ease-in-out;
     color: white;
   }
   .code-menu{
+    transition: color 0.3s ease-in-out;
     color: white;
   }
   .exit{
@@ -514,6 +589,33 @@ a:hover{
   .copyrightcode{
     color: white;
   }
+  label {
+    transition: color 0.3s ease-in-out;
+    color: white;
+  }
+  input[type=text], [type=email], select, textarea {
+    transition: color 0.3s ease-in-out;
+    color: white;
+    background-color: rgb(194, 194, 194);
+    border: 1px solid #6e6e6e;
+  }
+  input[type=submit] {
+    transition: color 0.3s ease-in-out;
+    background-color: rgb(49, 49, 49);
+    color: rgb(233, 225, 225);
+  }
+  input[type=submit]:hover {
+    transition: color 0.3s ease-in-out;
+    background-color: rgb(97, 97, 97);
+  }
+  .container{
+    transition: color 0.3s ease-in-out;
+    background-color: #666464;
+    box-shadow: 8px 8px rgb(0, 0, 0);
+  }
+  input[type=submit]:hover {
+    background-color: rgb(15, 15, 15);
+  }
   background-color: rgb(32, 32, 32);
 }
 
@@ -529,6 +631,7 @@ a:hover{
         padding-top: 1%;
     }
     .topofpage{
+      transition: color 0.3s ease-in-out;
         width: 99.5%;
         height: 80%;
         background-color: rgb(211, 211, 211);
@@ -576,15 +679,19 @@ a:hover{
       font-size: 20px;
     }
     .copyright{
+      transition: color 0.3s ease-in-out;
       padding-top: 33.5%;
     }
     .copyrightart{
+      transition: color 0.3s ease-in-out;
       padding-top: 3%;
   }
   .copyrightcode{
+    transition: color 0.3s ease-in-out;
     padding-top: 3%;
   }
   .copyrightabout{
+    transition: color 0.3s ease-in-out;
     padding-top: 1%;
   }
     .secondyear{
@@ -623,6 +730,7 @@ a:hover{
       font-size: 40px;
     }
     .achievements{
+      transition: color 0.3s ease-in-out;
       font-size: 40px;
       padding-bottom: 4%;
       padding-top: 3%;
@@ -634,6 +742,7 @@ a:hover{
     }
 
     .informationsection{
+      transition: color 0.3s ease-in-out;
       background-color: #e7e5e5;
       box-shadow: 8px 8px grey;
       border-radius: 10px;
@@ -643,6 +752,7 @@ a:hover{
       margin-left: 29.5%;
     }
     .cvsection{
+      transition: color 0.3s ease-in-out;
       margin-top: 3%;
       background-color: #e7e5e5;
       box-shadow: 8px 8px grey;
