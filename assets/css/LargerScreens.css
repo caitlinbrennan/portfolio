@@ -125,7 +125,7 @@ body{
 .columnsocial{
   -ms-flex: 25%;
   flex: 25%;
-  max-width: 25%;
+  max-width: 18%;
   padding: 0 4px;
   transition: transform 0.3s ease-in-out;
 }
@@ -346,6 +346,7 @@ a:hover{
 
 .aboutheading{
   font-family: 'Brown Sugar';
+  transition: color 0.3s ease-in-out;
   font-weight: bold;
   text-align: center;
 }
@@ -353,6 +354,7 @@ a:hover{
   font-family: 'Funnel Sans';
   color: #000;
   font-weight: 200;
+  transition: color 0.3s ease-in-out;
     text-align: center;
     opacity: 0;
     animation: fadeInUp 1.2s ease-in-out forwards;
@@ -379,6 +381,7 @@ a:hover{
   color: #000;
   font-weight: 200;
     text-align: center;
+    transition: color 0.3s ease-in-out;
     opacity: 0;
     animation: fadeInUp 1.7s ease-in-out forwards;
     animation-delay: 0.7s;
@@ -390,6 +393,7 @@ a:hover{
   font-family: 'Funnel Sans';
   color: #000;
   font-weight: 200;
+  transition: color 0.3s ease-in-out;
     text-align: center;
     opacity: 0;
     animation: fadeInUp 2s ease-in-out forwards;
@@ -445,6 +449,8 @@ a:hover{
 }
 
 .switch {
+  margin-top: 1%;
+  margin-right: 1%;
   position: relative;
   display: inline-block;
   width: 60px;
@@ -569,6 +575,9 @@ input:checked + .slider:before {
   .copyrightart{
     color: white;
   }
+  .copyrightabout {
+    color: white;
+  }
   .sub-headings{
     color: white;
   }
@@ -587,6 +596,29 @@ input:checked + .slider:before {
     color: grey;
   }
   .copyrightcode{
+    color: white;
+  }
+  .aboutheading {
+    color: white;
+  }
+  .informationsection {
+    background-color: rgb(78, 78, 78);
+    box-shadow: 8px 8px rgb(51, 51, 51);
+  }
+  .cvsection {
+    background-color: rgb(78, 78, 78);
+    box-shadow: 8px 8px rgb(51, 51, 51);
+  }
+  .information1 {
+    color: white;
+  }
+  .information2 {
+    color: white;
+  }
+  .information3 {
+    color: white;
+  }
+  .cvinfo {
     color: white;
   }
   label {
@@ -627,7 +659,7 @@ input:checked + .slider:before {
   /*Top of Page*/
     .socials{
         position: relative;
-        padding-left: 94%;
+        padding-left: 91%;
         padding-top: 1%;
     }
     .topofpage{
