@@ -1,8 +1,5 @@
 /*Large Laptop*/
 @media only screen and (max-width: 1500px){
-  .topnav{
-    display: none;
-  }
   /*Top of Page*/
   .socials{
     position: relative;
@@ -121,40 +118,6 @@ padding-top: 3%;
 
 /*iPad Pro Size*/
 @media only screen and (max-width: 1000px) and (min-width: 500px){
-    /* Style the navigation menu */
-    .topnav {
-      display: block;
-      overflow: hidden;
-      background-color: #333;
-      position: relative;
-      margin-top: 6%;
-    }
-    .topnav #myLinks {
-      display: none;
-    }
-    .topnav a {
-      color: white;
-      padding: 14px 16px;
-      text-decoration: none;
-      display: block;
-      font-size: 17px;
-    }
-    .topnav a.icon {
-      background: black;
-      display: block;
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .topnav a:hover {
-      background-color: #ddd;
-      color: black;
-    }
-    .active {
-      background-color: transparent;
-      color: white;
-    }
-
     .sub-headings{
       font-size: 25px;
     }
@@ -252,23 +215,20 @@ padding-top: 3%;
 
 /*Mobile Phone Sizing*/
 @media only screen and (max-width: 500px){
-  /* Style the navigation menu */
   .topnav {
-    display: block;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(243, 243, 243);
     position: relative;
-    margin-top: 6%;
   }
   .topnav #myLinks {
     display: none;
   }
   .topnav a {
-    color: white;
+    color: black;
     padding: 14px 16px;
     text-decoration: none;
-    display: block;
     font-size: 17px;
+    display: block;
   }
   .topnav a.icon {
     background: black;
@@ -277,15 +237,13 @@ padding-top: 3%;
     right: 0;
     top: 0;
   }
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+  .heart {
+    content: url(../imgs/Outline\ Black\ Heart.png);
+    height: 30px;
+    margin-top: -10px;
+    margin-left: 87%;
   }
-  .active {
-    background-color: transparent;
-    color: white;
-  }
-  
+
    /*Top of Page*/
    .socials{
      display: none;
@@ -304,16 +262,18 @@ padding-top: 3%;
    padding-top: 5%;
    font-size: 80px;
  }
+ .links {
+  padding-left: 2%;
+  padding-right: 0%;
+ }
  .about{
    position: relative;
    z-index: 9;
-     font-size: 30px;
+     font-size: 40px;
      transition: color 0.3s ease-in-out;
  }
  .mywork{
-   position: relative;
-   z-index: 9;
-   font-size: 35px;
+   font-size: 45px;
    transition: color 0.3s ease-in-out;
  }
 
@@ -347,20 +307,30 @@ padding-top: 3%;
   }
 
    /*Menu Page*/
+   .switch-menu {
+    width: 10%;
+    margin-left: 84%;
+    margin-top: -15%;
+  }
    .exit{
-     width: 8%;
-     margin-left: 5%;
-     margin-top: 5%;
+     width: 5%;
+     margin-left: 8%;
+     margin-top: 8%;
    }
    .art-menu{
      font-family: 'Funnel Sans';
      color: #000;
-     font-size: 80px;
+     font-size: 40px;
    }
    .code-menu{
      font-family: 'Funnel Sans';
      color: #000;
-     font-size: 80px;
+     font-size: 40px;
+   }
+   .achievement-menu {
+    font-family: 'Funnel Sans';
+    color: #000;
+    font-size: 35px;
    }
    .menu-box{
      background-color: rgb(177, 177, 177);
