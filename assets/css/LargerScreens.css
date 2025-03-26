@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(243, 243, 243); 
 }
 
 /*Fonts*/
@@ -449,68 +449,44 @@ a:hover{
 }
 
 .switch {
-  margin-top: 1%;
+  content: url(../imgs/Group\ 5.png);
+  margin-top: 0.6%;
   margin-right: 1%;
   position: relative;
   display: inline-block;
   width: 60px;
-  height: 34px;
-}
-
-.switch input { 
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  position: absolute;
+  height: 60px;
+  margin-bottom: 1%;
+  margin-left: 5%;
+  transition: content 0.1s ease-in-out;
   cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #6e7072;
-  -webkit-transition: .4s;
-  transition: .4s;
 }
 
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: rgb(54, 54, 54);
-  -webkit-transition: .4s;
-  transition: .4s;
-}
 
-input:checked + .slider {
-  background-color: #ccc;
+.discordicon{
+  content: url(../imgs/Mask\ group-2.png);
 }
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+.githubicon {
+  content: url(../imgs/Mask\ group.png);
 }
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
+.linkedinicon {
+  content: url(../imgs/Group\ 3.png);
 }
 
 .dark-mode{
+  .switch {
+    transition: content 0.1s ease-in-out;
+    content: url(../imgs/image\ 3.png);
+  }
+  .discordicon {
+    content: url(../imgs/image\ 2.png);
+  }
+  .githubicon {
+    content: url(../imgs/Mask\ group-1.png);
+  }
+  .linkedinicon {
+    content: url(../imgs/Group\ 4.png);
+  }
   .slider::before {
     background-color: white;
   }
@@ -534,7 +510,6 @@ input:checked + .slider:before {
     color:rgb(184, 184, 184);
   }
   .socials{
-    color: grey;
     transition: color 0.3s ease-in-out;
   }
   .copyright{
@@ -560,11 +535,17 @@ input:checked + .slider:before {
     color: white;
   }
 
+  .menu-row {
+    background-color: rgb(32, 32, 32);
+  }
   .subart{
     color: white;
   }
   .main-headings{
     color: white;
+  }
+  .subheadingsbox {
+    color: #2e2e2e;
   }
   .artheadings{
     color: white;
@@ -685,6 +666,13 @@ input:checked + .slider:before {
     .mywork{
       font-size: 65px;
       transition: color 0.3s ease-in-out;
+    }
+
+    .menu-row {
+      position: sticky;
+      overflow: hidden;
+      top: 0;
+      background-color: rgb(243, 243, 243);
     }
 
       /*Extra*/
