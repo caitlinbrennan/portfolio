@@ -342,6 +342,9 @@ a:hover{
   color: #000;
 }
 
+.back-arrow{
+  content: url(../imgs/Arrow\ 1.png);
+}
 .aboutheading{
   font-family: 'Brown Sugar';
   transition: color 0.3s ease-in-out;
@@ -639,6 +642,12 @@ a:hover{
   input[type=submit]:hover {
     background-color: rgb(15, 15, 15);
   }
+  .topnav {
+    background-color: rgb(32, 32, 32);
+  }
+  .heart-work {
+    content: url(../imgs/Outline\ White\ Heart.png);
+  }
   background-color: rgb(32, 32, 32);
 }
 
@@ -750,7 +759,7 @@ a:hover{
     /*About Page*/
     .back-arrow{
       transform: rotate(-70deg);
-      max-width: 4%;
+      width: 4%;
       margin-left: 6%;
     }
     .aboutheading{
@@ -947,7 +956,7 @@ padding-top: 3%;
 /*About Page*/
 .back-arrow{
   transform: rotate(-70deg);
-  max-width: 4%;
+  width: 4%;
   margin-left: 6%;
 }
 .aboutheading{
@@ -1064,7 +1073,7 @@ font-weight: 500;
 /*About Page*/
 .back-arrow{
   transform: rotate(-70deg);
-  max-width: 4%;
+  width: 4%;
   margin-left: 6%;
 }
 .aboutheading{
