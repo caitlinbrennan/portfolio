@@ -1,14 +1,8 @@
-.rowmenus {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding: 0 4px;
-  align-items: center;
-}
-
 /*Large Laptop*/
 @media only screen and (max-width: 1500px){
+    .topnav {
+    display: none;
+  }
   /*Top of Page*/
   .socials{
     position: relative;
@@ -226,31 +220,34 @@ padding-top: 3%;
 @media only screen and (max-width: 500px){
   .topnav {
     overflow: hidden;
+    display: flex;
     background-color: rgb(243, 243, 243);
     position: relative;
   }
   .topnav #myLinks {
     display: none;
+    text-align: center;
+    max-width: 100%;
+    text-align: center;
+    background-color: rgb(177, 177, 177);
   }
   .topnav a {
     color: black;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: 'Funnel Sans';
     display: block;
   }
-  .topnav a.icon {
-    background: black;
+
+  .topnavicons {
     display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
   }
   .heart {
-    content: url(../imgs/Outline\ Black\ Heart.png);
-    height: 30px;
-    margin-top: -10px;
-    margin-left: 87%;
+    content: url(../imgs/logos/Outline\ Black\ Heart.png);
+    height: 45px;
+    margin-left: 80%;
+    margin-top: 5.5%;
   }
 
    /*Top of Page*/
@@ -286,14 +283,6 @@ padding-top: 3%;
    transition: color 0.3s ease-in-out;
  }
 
- .sub-headings{
-  font-size: 20px;
-}
-.achievements{
-  font-size: 20px;
-  padding-bottom: 4%;
-}
-
    video{
      max-width: 100%;
    }
@@ -317,23 +306,24 @@ padding-top: 3%;
 
   .switch {
     margin-left: 5%;
+    margin-top: -20%;
   }
   .heart-work {
-    content: url(../imgs/Outline\ Black\ Heart.png);
-    height: 45px;
+    content: url(../imgs/logos/Outline\ Black\ Heart.png);
+    height: 30px;
     position: absolute;
     margin-left: 65%;
-    margin-top: 1%;
+    margin-top: 3%;
   }
-
    /*Menu Page*/
    .switch-menu {
     width: 10%;
+    height: 4.5%;
   }
    .exit{
-     width: 5%;
+     width: 4%;
      margin-left: 8%;
-     margin-top: 8%;
+     margin-top: 10%;
    }
    .art-menu{
      font-family: 'Funnel Sans';
@@ -374,32 +364,103 @@ padding-top: 3%;
    }
 
    .subart {
-    font-size: 25px;
+    font-size: 22px;
    }
    .artheadings {
-    font-size: 35px;
+    font-size: 30px;
    }
+   .codeheadings {
+    font-size: 30px;
+   }
+   .sub-headings {
+    font-size: 30px;
+   }
+   .sitelink{
+    font-size: 22px;
+  }
+   .info{
+    font-size: 15px;
+  }
+  .infovideo {
+    font-size: 17px;
+    margin-left: 1.5%;
+    margin-right: 0%;
+  }
+  .row {
+    width: 85%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin-left: 6%;
+  }
+  .ThreeDrow {
+    width: 85%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin-left: 6%;
+  }
+  .rowanimatics {
+    width: 85%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin-left: 6%;
+  }
+  .rowsite {
+    width: 85%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin-left: 6%;
+  }
+  .rowgame {
+    width: 85%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin-left: 6%;
+  }
    .column {
     -ms-flex: 25%;
     flex: 25%;
-    max-width: 80%;
+    max-width: 90%;
+    margin-top: 2%;
     padding: 0 4px;
     margin-left: auto;
     margin-right: auto;
+}
+.columnsites {
+  -ms-flex: 50%;
+  flex: 50%;
+  max-width: 90%;
+  margin-top: 5%;
+  padding: 0 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.columngame {
+  -ms-flex: 50%;
+  flex: 50%;
+  max-width: 90%;
+  margin-top: 5%;
+  padding: 0 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .animatics {
   -ms-flex: 25%;
   flex: 25%;
   max-width: 100%;
+  margin-top: 2%;
   padding: 0 4px;
   margin-left: auto;
   margin-right: auto;
 }
+.animatics video {
+  margin-left: 14.5%;
+}
 .ThreeDcolumn {
   -ms-flex: 25%;
   flex: 25%;
-  max-width: 80%;
+  max-width: 90%;
   padding: 0 4px;
+  margin-top: 2%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -417,31 +478,29 @@ padding-top: 3%;
     margin-left: 10%;
   }
   .aboutheading{
-    font-size: 40%;
+    font-size: 30px;
   }
   .information1{
-    font-size: 40px;
+    font-size: 25px;
   }
   .information2{
-      font-size: 40px;
+      font-size: 25px;
   }
   .information3{
-      font-size: 40px;
+      font-size: 25px;
   }
   .cvinfo{
-      font-size: 40px;
-  }
-
-  .sub-headings{
-    font-size: 40px;
+      font-size: 25px;
   }
   .achievements{
     transition: color 0.3s ease-in-out;
-    font-size: 40px;
-    padding-bottom: 4%;
+    font-size: 25px;
+    padding-bottom: 3%;
     padding-top: 3%;
-    width: 49%;
-    margin-left: 25%;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 85%;
+    margin-left: 4%;
     background-color: #e7e5e5;
     box-shadow: 8px 8px grey;
     border-radius: 10px;
@@ -452,10 +511,12 @@ padding-top: 3%;
     background-color: #e7e5e5;
     box-shadow: 8px 8px grey;
     border-radius: 10px;
-    width: 40%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin-left: 29.5%;
+    width: 85%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 4%;
   }
   .cvsection{
     transition: color 0.3s ease-in-out;
@@ -463,11 +524,18 @@ padding-top: 3%;
     background-color: #e7e5e5;
     box-shadow: 8px 8px grey;
     border-radius: 10px;
-    width: 40%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 2%;
-    padding-right: 2%;
-    margin-left: 27.5%;
+    width: 85%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 4%;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #cec6c6;
+    width: 85%;
+    margin-left: 2%;
+    box-shadow: 8px 8px grey;
   }
  }

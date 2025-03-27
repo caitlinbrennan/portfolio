@@ -16,15 +16,31 @@
     </head>
     <body>
 
+        <div class="topnav">
+                    <a></a>
+                    <!-- Navigation links (hidden by default) -->
+                    <label class="switch">
+                        <input type="checkbox" onclick="darkMode()" >
+                    </label>
+                    <div id="myLinks">
+                      <a href="../portfolio/index.html">Home</a>
+                      <a href="../portfolio/art.html">Art</a>
+                      <a href="../portfolio/achievements.html">Achievements</a>
+                      <a href="../portfolio/aboutme.html">About</a>
+                      <a href="../portfolio/contact.html">Contact</a>
+                    </div>
+                    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                    <img class="heart-work" onclick="myFunction()">
+          </div>
+
         <div class="menu-row">
             <a href="../portfolio/index.html" class="home"><h4 class="small-menu" style="margin-left: 1%;">Home</h4></a>
             <a href="../portfolio/art.html" class="art"><h4 class="small-menu" style="margin-left: 1%;">Art</h4></a>
             <a href="../portfolio/achievements.html" class="code"><h4 class="small-menu" style="margin-left: 1%;">Achievements</h4></a>
             <a href="../portfolio/aboutme.html" class="about-link" style="margin-left: 75%;"><h4 class="small-menu">About</h4></a>
             <a href="../portfolio/contact.html" class="contact"><h4 class="small-menu">Contact</h4></a>
-            <label class="switch" style="margin-left: 2%;">
+            <label class="switch">
                 <input type="checkbox" onclick="darkMode()" >
-                <span class="slider round"></span>
             </label>
         </div>
         <h2 class="main-headings">UI/Coding</h2>
@@ -37,12 +53,12 @@
         <h3 id="coding" class="codeheadings">Coding</h3>
         <div class="rowsite">
             <div class="columnsites">
-                <img src="assets/imgs/audioguru-home.png" style="margin-right:auto; margin-left:auto; width:100%">
+                <img src="assets/imgs/coding/audioguru-home.png" style="margin-right:auto; margin-left:auto; width:100%">
                 <p class="sitelink" onclick="openHeadphone()">Headphone Comparison Site</p>
                 <p class="info">This is a website built by scratch by me, for my second year for Web User Interface Design</p>
             </div>
             <div class="columnsites">
-                <img src="assets/imgs/ticktock.png" style="margin-right:auto; margin-left:auto; width:100%">
+                <img src="assets/imgs/coding/ticktock.png" style="margin-right:auto; margin-left:auto; width:100%">
                 <p class="sitelink" onclick="openGame()">Browser Game</p>
                 <p class="info">This is a browser game built by me for my second year class for UI Programming</p>
             </div>
@@ -50,11 +66,11 @@
         <h3 id="games" class="codeheadings">Games</h3>
         <div class="rowgame"> 
             <div class="columngame" style="margin-right:auto; margin-left:auto;">
-                <img src="assets/imgs/main_screen.png" style="width:100%">
+                <img src="assets/imgs/coding/main_screen.png" style="width:100%">
+                <p class="sitelink" onclick="openGameJam()">Global Gam Jam Site</p>
+                <p class="info">This is a game built by me and my team for Game Jam 2025</p>
             </div>
         </div>
-        <p class="sitelink" onclick="openGameJam()">Global Gam Jam Site</p>
-        <p class="info">This is a game built by me and my team for Game Jam 2025</p>
         <div class="pagebottom">
             <p class="copyrightcode">Caitlin Brennan © 2025</p>
         </div>

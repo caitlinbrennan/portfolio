@@ -32,11 +32,18 @@ body{
     align-items: flex-start;
     flex-wrap: wrap;
     padding: 0 4px;
+    background-color: #e7e5e5;
+    box-shadow: 8px 8px grey;
+    border-radius: 10px;
+    width: 40%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin-left: 29.5%;
 }
 .column {
     -ms-flex: 25%;
     flex: 25%;
-    max-width: 24.75%;
+    max-width: 60%;
     padding: 0 4px;
     margin-left: auto;
     margin-right: auto;
@@ -77,6 +84,13 @@ body{
   align-items: flex-start;
   flex-wrap: wrap;
   padding: 0 4px;
+  background-color: #e7e5e5;
+  box-shadow: 8px 8px grey;
+  border-radius: 10px;
+  width: 40%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  margin-left: 29.5%;
 }
 .rowsocials {
   display: -ms-flexbox;
@@ -92,6 +106,13 @@ body{
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 0 4px;
+  background-color: #e7e5e5;
+  box-shadow: 8px 8px grey;
+  border-radius: 10px;
+  width: 50%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  margin-left: 24%;
 }
 .rowanimatics {
   justify-content: space-evenly;
@@ -99,6 +120,13 @@ body{
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  background-color: #e7e5e5;
+  box-shadow: 8px 8px grey;
+  border-radius: 10px;
+  width: 40%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  margin-left: 29.5%;
 }
 .rowsite{
   display: -ms-flexbox;
@@ -106,21 +134,28 @@ body{
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 0 4px;
+  background-color: #e7e5e5;
+  box-shadow: 8px 8px grey;
+  border-radius: 10px;
+  width: 80%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  margin-left: 9.5%;
 }
 
 /*Columns*/
 .columngame {
   -ms-flex: 25%;
   flex: 25%;
-  max-width: 24.75%;
-  max-height: 30%;
+  max-width: 55%;
   padding: 0 4px;
 }
 .animatics{
   -ms-flex: 25%;
   flex: 25%;
-  padding-left: 0 4px;
-  margin-left: 17%;
+  max-width: 100%;
+  padding: 0 4px;
+  margin-left: 25%;
 }
 .columnsocial{
   -ms-flex: 25%;
@@ -139,7 +174,7 @@ body{
 .ThreeDcolumn {
   -ms-flex: 25%;
   flex: 25%;
-  max-width: 24.75%;
+  max-width: 60%;
   padding: 0 4px;
   margin-left: auto;
   margin-right: auto;
@@ -154,9 +189,9 @@ body{
 .columnsites{
   -ms-flex: 25%;
   flex: 25%;
-  max-width: 35%;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 40%;
+  padding-left: 6.5%;
+  padding-right: 2%;
 }
 
 
@@ -306,6 +341,11 @@ body{
   text-align: center;
   font-family: 'Funnel Sans';
 }
+.infovideo{
+  transition: color 0.3s ease-in-out;
+  text-align: center;
+  font-family: 'Funnel Sans';
+}
 
 .copyright{
   text-align: center;
@@ -450,14 +490,14 @@ a:hover{
 }
 
 .switch {
-  content: url(../imgs/Group\ 5.png);
+  content: url(../imgs/logos/Group\ 5.png);
   position: relative;
   display: inline-block;
   transition: content 0.1s ease-in-out;
   cursor: pointer;
 }
 .switch-menu {
-  content: url(../imgs/Group\ 5.png);
+  content: url(../imgs/logos/Group\ 5.png);
   position: relative;
   display: inline-block;
   transition: content 0.1s ease-in-out;
@@ -466,35 +506,35 @@ a:hover{
 
 
 .discordicon{
-  content: url(../imgs/Mask\ group-2.png);
+  content: url(../imgs/logos/Mask\ group-2.png);
 }
 .githubicon {
-  content: url(../imgs/Mask\ group.png);
+  content: url(../imgs/logos/Mask\ group.png);
 }
 .linkedinicon {
-  content: url(../imgs/Group\ 3.png);
+  content: url(../imgs/logos/Group\ 3.png);
 }
 .exit {
-  content: url("../imgs/Group\ 8.png");
+  content: url("../imgs/logos/Group\ 8.png");
 }
 
 .dark-mode{
   .switch {
     transition: content 0.1s ease-in-out;
-    content: url(../imgs/image\ 3.png);
+    content: url(../imgs/logos/image\ 3.png);
   }
   .switch-menu {
     transition: content 0.1s ease-in-out;
-    content: url(../imgs/image\ 3.png);
+    content: url(../imgs/logos/image\ 3.png);
   }
   .discordicon {
-    content: url(../imgs/image\ 2.png);
+    content: url(../imgs/logos/image\ 2.png);
   }
   .githubicon {
-    content: url(../imgs/Mask\ group-1.png);
+    content: url(../imgs/logos/Mask\ group-1.png);
   }
   .linkedinicon {
-    content: url(../imgs/Group\ 4.png);
+    content: url(../imgs/logos/Group\ 4.png);
   }
   .slider::before {
     background-color: white;
@@ -527,7 +567,7 @@ a:hover{
   }
 
   .exit {
-    content: url("../imgs/Group\ 9.png");
+    content: url("../imgs/logos/Group\ 9.png");
   }
   .menu-box{
     background-color: #2e2e2e;
@@ -653,6 +693,9 @@ a:hover{
 
 /*Widescreen Monitor*/
 @media only screen and (max-width: 4000px){
+  .topnav {
+    display: none;
+  }
   .switch {
     width: 60px;
     height: 60px;
@@ -729,6 +772,10 @@ a:hover{
     }
     .info{
       font-size: 20px;
+    }
+    .infovideo {
+      font-size: 20px;
+      margin-right: 30%;
     }
     .copyright{
       transition: color 0.3s ease-in-out;
@@ -898,6 +945,9 @@ a:hover{
 
 /*Bigger PC*/
 @media only screen and (max-width: 2700px){
+  .topnav {
+    display: none;
+  }
   /*Top of Page*/
   .socials{
     position: relative;
@@ -1015,6 +1065,9 @@ padding-top: 3%;
 
 /*Roughly 24" Monitor*/
 @media only screen and (max-width: 2000px){
+  .topnav {
+    display: none;
+  }
   /*Top of Page*/
   .socials{
     position: relative;
