@@ -572,6 +572,9 @@ a:hover{
   .menu-box{
     background-color: #2e2e2e;
   }
+  .menu-box-2{
+    background-color: #2e2e2e;
+  }
   .art-menu{
     transition: color 0.3s ease-in-out;
     color: white;
@@ -631,6 +634,9 @@ a:hover{
   }
   .copyrightcode{
     color: white;
+  }
+  .back-arrow {
+    content: url("../imgs/Arrow\ 2.png");
   }
   .aboutheading {
     color: white;
@@ -1068,32 +1074,44 @@ padding-top: 3%;
   .topnav {
     display: none;
   }
+  .topnavicons {
+    display: none;
+  }
   /*Top of Page*/
   .socials{
     position: relative;
-    padding-left: 92%;
-    padding-top: 1%;
+    padding-left: 85%;
+    padding-top: .5%;
+    overflow: hidden;
+}
+.columnsocial{
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 15%;
+  padding: 0 4px;
+  transition: transform 0.3s ease-in-out;
 }
 .topofpage{
   width: 99.5%;
   height: 75%;
   background-color: rgb(211, 211, 211);
-  margin-top: 5%;
+  margin-top: 1%;
   position: absolute;
 }
 .name{
 font-family: 'Brown Sugar';
 font-weight: 500;
   text-align: center;
-  padding-top: 5%;
-  font-size: 180px;
+  padding-top: 1%;
+  font-size: 150px;
 }
 .about{
-    font-size: 35px;
+    font-size: 30px;
     transition: color 0.3s ease-in-out;
 }
 .mywork{
-  font-size: 43px;
+  margin-top: -30%;
+  font-size: 36px;
   transition: color 0.3s ease-in-out;
 }
 
@@ -1125,7 +1143,7 @@ font-weight: 500;
 
 /*About Page*/
 .back-arrow{
-  transform: rotate(-70deg);
+  transform: rotate(0deg);
   width: 4%;
   margin-left: 6%;
 }
@@ -1133,23 +1151,23 @@ font-weight: 500;
   font-family: 'Brown Sugar';
   font-weight: bold;
   text-align: center;
-  font-size: 100px;
+  font-size: 90px;
 }
 .information1{
-  font-size: 40px;
+  font-size: 30px;
 }
 .information2{
-  font-size: 40px;
+  font-size: 30px;
 }
 .information3{
-  font-size: 40px;
+  font-size: 30px;
 }
 .cvinfo{
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .sub-headings{
-  font-size: 40px;
+  font-size: 30px;
 }
 .achievements{
   font-size: 40px;
@@ -1165,12 +1183,23 @@ font-weight: 500;
 .art-menu{
   font-family: 'Funnel Sans';
   color: #000;
-  font-size: 100px;
+  font-size: 80px;
 }
 .code-menu{
   font-family: 'Funnel Sans';
   color: #000;
-  font-size: 100px;
+  font-size: 80px;
+}
+.achievement-menu {
+  font-family: 'Funnel Sans';
+  color: #000;
+  font-size: 60px;
+}
+.menu-box-2 {
+  background-color: rgb(177, 177, 177);
+    width: 30%;
+    margin-top: 1%;
+    border-radius: 20px;
 }
 
 .small-menu{
@@ -1183,5 +1212,30 @@ font-weight: 500;
 .art{
   margin-left: 1%;
   text-decoration: none;
+}
+
+
+.informationsection{
+  transition: color 0.3s ease-in-out;
+  background-color: #e7e5e5;
+  box-shadow: 8px 8px grey;
+  border-radius: 10px;
+  width: 70%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: 14%;
+}
+.cvsection{
+  transition: color 0.3s ease-in-out;
+  margin-top: 3%;
+  background-color: #e7e5e5;
+  box-shadow: 8px 8px grey;
+  border-radius: 10px;
+  width: 70%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-left: 12%;
 }
 }
