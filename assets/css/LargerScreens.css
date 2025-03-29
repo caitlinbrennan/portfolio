@@ -43,7 +43,7 @@ body{
 .column {
     -ms-flex: 25%;
     flex: 25%;
-    max-width: 60%;
+    max-width: 70%;
     padding: 0 4px;
     margin-left: auto;
     margin-right: auto;
@@ -893,6 +893,7 @@ a:hover{
     }
     .small-menu{
       font-size: 25px;
+      margin-left: 1%;
     }
     .code{
       margin-left: 1%;
@@ -903,9 +904,12 @@ a:hover{
       text-decoration: none;
     }
     .about-link{
-      margin-left: 1%;
+      margin-left: 80%;
       text-decoration: underline;
-      margin-left: 3%;
+    }
+    .about-link-2 {
+      margin-left: 78%;
+      text-decoration: underline;
     }
     .contact{
       margin-left: 1%;
@@ -1092,10 +1096,10 @@ padding-top: 3%;
   transition: transform 0.3s ease-in-out;
 }
 .topofpage{
-  width: 99.5%;
+  width: 99%;
   height: 75%;
   background-color: rgb(211, 211, 211);
-  margin-top: 1%;
+  margin-top: 1.5%;
   position: absolute;
 }
 .name{
@@ -1114,12 +1118,16 @@ font-weight: 500;
   font-size: 36px;
   transition: color 0.3s ease-in-out;
 }
+.switch {
+  margin-left: 2%;
+  margin-top: 1.5%;
+}
 
   /*Extra*/
 .main-headings{
     text-align: center;
     font-family: 'Funnel Sans';
-    font-size: 80px;
+    font-size: 55px;
 }
 .copyright{
     padding-top: 4%;
@@ -1131,6 +1139,34 @@ font-weight: 500;
   padding-top: 3%;
 }
 
+.about-link {
+  margin-left: 55%;
+}
+.about-link-2 {
+  margin-left: 62%;
+}
+.subheadings{
+  font-size: 30px;
+  margin-bottom: 4%;
+}
+.artheadings{
+  font-size: 35px;
+}
+.codeheadings{
+  font-size: 50px;
+}
+.subart{
+  padding-left: 2%;
+  padding-right: 2%;
+  text-decoration: none;
+}
+.info{
+  font-size: 20px;
+}
+.infovideo {
+  font-size: 20px;
+  margin-right: 30%;
+}
 .secondyear{
   font-size: 30px;
 }
@@ -1138,7 +1174,28 @@ font-weight: 500;
   font-size: 30px;
 }
 .sitelink{
-  font-size: 30px;
+  font-size: 25px;
+}
+
+.row {
+  width: 70%;
+  margin-left: 14%;
+}
+.ThreeDrow {
+  width: 70%;
+  margin-left: 14%;
+}
+.rowanimatics {
+  width: 70%;
+  margin-left: 14%;
+}
+.rowsite{
+  width: 70%;
+  margin-left: 14%;
+}
+.rowgame {
+  width: 70%;
+  margin-left: 14%;
 }
 
 /*About Page*/
@@ -1204,6 +1261,7 @@ font-weight: 500;
 
 .small-menu{
   font-size: 25px;
+  margin-left: 4%;
 }
 .code{
   margin-left: 1%;
@@ -1214,6 +1272,17 @@ font-weight: 500;
   text-decoration: none;
 }
 
+.achievements{
+  transition: color 0.3s ease-in-out;
+  font-size: 30px;
+  padding-bottom: 4%;
+  padding-top: 3%;
+  width: 70%;
+  margin-left: 14%;
+  background-color: #e7e5e5;
+  box-shadow: 8px 8px grey;
+  border-radius: 10px;
+}
 
 .informationsection{
   transition: color 0.3s ease-in-out;
@@ -1237,5 +1306,39 @@ font-weight: 500;
   padding-left: 2%;
   padding-right: 2%;
   margin-left: 12%;
+}
+
+label {
+  font-family: 'Funnel Sans';
+}
+input[type=text], [type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: 'Funnel Sans';
+}
+input[type=submit] {
+  background-color: grey;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: rgb(97, 97, 97);
+}
+.container{
+  border-radius: 5px;
+  background-color: #cec6c6;
+  padding: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  box-shadow: 8px 8px grey;
 }
 }
