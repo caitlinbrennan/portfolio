@@ -221,12 +221,18 @@ padding-top: 3%;
   .topnav {
     overflow: hidden;
     display: flex;
-    background-color: rgb(243, 243, 243);
-    position: relative;
+    position: fixed;
+    width: 90.5%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
   }
   .topnav #myLinks {
     display: none;
     text-align: center;
+    position: relative;
+    top: 10%;
     max-width: 100%;
     text-align: center;
     background-color: rgb(177, 177, 177);
@@ -235,7 +241,7 @@ padding-top: 3%;
     color: black;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
     font-family: 'Funnel Sans';
     display: block;
   }
@@ -474,8 +480,10 @@ padding-top: 3%;
 }
 
    .back-arrow{
+    transform: rotate(0deg);
     width: 8%;
     margin-left: 10%;
+    margin-top: 10%;
   }
   .aboutheading{
     font-size: 30px;

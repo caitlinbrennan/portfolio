@@ -75,7 +75,7 @@ body{
   align-items: flex-start;
   flex-wrap: wrap;
   padding: 0 4px;
-  margin-left: 5%;
+  margin-left: 0%;
 }
 .ThreeDrow {
   display: -ms-flexbox; /* IE10 */
@@ -1114,7 +1114,7 @@ font-weight: 500;
     transition: color 0.3s ease-in-out;
 }
 .mywork{
-  margin-top: -30%;
+  margin-top: 0%;
   font-size: 36px;
   transition: color 0.3s ease-in-out;
 }
@@ -1250,11 +1250,11 @@ font-weight: 500;
 .achievement-menu {
   font-family: 'Funnel Sans';
   color: #000;
-  font-size: 60px;
+  font-size: 70px;
 }
 .menu-box-2 {
   background-color: rgb(177, 177, 177);
-    width: 30%;
+    width: 100%;
     margin-top: 1%;
     border-radius: 20px;
 }
