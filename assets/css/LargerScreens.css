@@ -68,6 +68,12 @@ body{
   width: 20%;
   border-radius: 20px;
 }
+.menu-box-2{
+  background-color: rgb(177, 177, 177);
+  width: 28%;
+  height: 230px;
+  border-radius: 20px;
+}
 .menu-row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
@@ -75,7 +81,7 @@ body{
   align-items: flex-start;
   flex-wrap: wrap;
   padding: 0 4px;
-  margin-left: 0%;
+  margin-left: 5%;
 }
 .ThreeDrow {
   display: -ms-flexbox; /* IE10 */
@@ -1250,13 +1256,8 @@ font-weight: 500;
 .achievement-menu {
   font-family: 'Funnel Sans';
   color: #000;
-  font-size: 70px;
-}
-.menu-box-2 {
-  background-color: rgb(177, 177, 177);
-    width: 100%;
-    margin-top: 1%;
-    border-radius: 20px;
+  font-size: 55px;
+  margin-top: 18.5%;
 }
 
 .small-menu{
