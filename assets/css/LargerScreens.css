@@ -148,6 +148,34 @@ body{
   padding-bottom: 1%;
   margin-left: 9.5%;
 }
+.mentorrow {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  background-color: #e7e5e5;
+  box-shadow: 8px 8px grey;
+  border-radius: 10px;
+  width: 50%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  margin-left: 24%;
+}
+.awardrow {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  background-color: #e7e5e5;
+  box-shadow: 8px 8px grey;
+  border-radius: 10px;
+  width: 50%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  margin-left: 24%;
+}
 
 /*Columns*/
 .columngame {
@@ -178,6 +206,22 @@ body{
   width: 100%;
 }
 .ThreeDcolumn {
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 60%;
+  padding: 0 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mentorcolumn {
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 30%;
+  padding: 0 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.awardcolumn {
   -ms-flex: 25%;
   flex: 25%;
   max-width: 60%;
@@ -329,6 +373,12 @@ body{
   font-family: 'Funnel Sans';
 }
 .codeheadings{
+  transition: color 0.3s ease-in-out;
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Funnel Sans';
+}
+.projectheadings{
   transition: color 0.3s ease-in-out;
   text-align: center;
   font-weight: 400;
@@ -585,6 +635,10 @@ a:hover{
     transition: color 0.3s ease-in-out;
     color: white;
   }
+  .project-menu {
+    transition: color 0.3s ease-in-out;
+    color: white;
+  }
   .code-menu{
     transition: color 0.3s ease-in-out;
     color: white;
@@ -594,6 +648,30 @@ a:hover{
     color: white;
   }
   .small-menu{
+    color: white;
+  }
+
+  .row {
+    background-color: #2e2e2e;
+    box-shadow: 8px 8px rgb(51, 51, 51);
+  }
+  .ThreeDrow {
+    background-color: #2e2e2e;
+    box-shadow: 8px 8px rgb(51, 51, 51);
+  }
+  .rowanimatics {
+    background-color: #2e2e2e;
+    box-shadow: 8px 8px rgb(51, 51, 51);
+  }
+  .mentorrow{
+    background-color: #2e2e2e;
+    box-shadow: 8px 8px rgb(51, 51, 51);
+  }
+  .awardrow {
+    background-color: #2e2e2e;
+    box-shadow: 8px 8px rgb(51, 51, 51);
+  }
+  .infovideo {
     color: white;
   }
 
@@ -610,6 +688,9 @@ a:hover{
     color: #2e2e2e;
   }
   .artheadings{
+    color: white;
+  }
+  .projectheadings{
     color: white;
   }
   .info{
@@ -1146,10 +1227,13 @@ font-weight: 500;
 }
 
 .about-link {
-  margin-left: 55%;
+  margin-left: 40%;
 }
 .about-link-2 {
-  margin-left: 62%;
+  margin-left: 47.3%;
+}
+.about-link-3 {
+  margin-left: 43%;
 }
 .subheadings{
   font-size: 30px;
@@ -1159,6 +1243,9 @@ font-weight: 500;
   font-size: 35px;
 }
 .codeheadings{
+  font-size: 50px;
+}
+.projectheadings{
   font-size: 50px;
 }
 .subart{
@@ -1248,6 +1335,11 @@ font-weight: 500;
   color: #000;
   font-size: 80px;
 }
+.project-menu{
+  font-family: 'Funnel Sans';
+  color: #000;
+  font-size: 80px;
+}
 .code-menu{
   font-family: 'Funnel Sans';
   color: #000;
@@ -1265,11 +1357,15 @@ font-weight: 500;
   margin-left: 4%;
 }
 .code{
-  margin-left: 1%;
+  margin-left: 3%;
   text-decoration: none;
 }
 .art{
-  margin-left: 1%;
+  margin-left: 3%;
+  text-decoration: none;
+}
+.projects{
+  margin-left: 3%;
   text-decoration: none;
 }
 
