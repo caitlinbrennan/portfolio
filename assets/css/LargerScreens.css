@@ -789,11 +789,14 @@ a:hover{
   .topnav {
     display: none;
   }
+  .topnavicons {
+    display: none;
+  }
   .switch {
     width: 60px;
     height: 60px;
-    margin-bottom: 1%;
-    margin-left: 5%;
+    margin-top: 0.5%;
+    margin-left: 2%;
   }
   .switch-menu {
     width: 3%;
@@ -816,11 +819,12 @@ a:hover{
         position: absolute;
     }
     .name{
-      font-family: 'Brown Sugar';
-      font-weight: 500;
-        text-align: center;
-        padding-top: 5%;
-        font-size: 200px;
+      background-image: url('../imgs/textExports/Name4kMonitor.png');
+      height: 200px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 8%;
+      width: 1550px;
     }
     .links {
       padding-left: 45%;
@@ -856,6 +860,9 @@ a:hover{
       font-size: 50px;
     }
     .codeheadings{
+      font-size: 50px;
+    }
+    .projectheadings{
       font-size: 50px;
     }
     .subart{
@@ -957,6 +964,18 @@ a:hover{
       margin-left: 27.5%;
     }
 
+    
+    .mentorcolumn {
+      max-width: 20%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .awardcolumn {
+      max-width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
     /*Menu Page*/
     .exit{
       width: 1.5%;
@@ -973,10 +992,22 @@ a:hover{
       color: #000;
       font-size: 100px;
     }
+    .project-menu{
+      font-family: 'Funnel Sans';
+      color: #000;
+      font-size: 100px;
+    }
     .achievement-menu {
       font-family: 'Funnel Sans';
       color: #000;
       font-size: 75px;
+      margin-top: 11%;
+    }
+    .menu-box-2{
+      background-color: rgb(177, 177, 177);
+      width: 25%;
+      height: 290px;
+      border-radius: 20px;
     }
     .small-menu{
       font-size: 25px;
@@ -990,12 +1021,20 @@ a:hover{
       margin-left: 1%;
       text-decoration: none;
     }
+    .projects{
+      margin-left: 1%;
+      text-decoration: none;
+    }
     .about-link{
-      margin-left: 80%;
+      margin-left: 69%;
       text-decoration: underline;
     }
     .about-link-2 {
-      margin-left: 78%;
+      margin-left: 73%;
+      text-decoration: underline;
+    }
+    .about-link-3 {
+      margin-left: 71%;
       text-decoration: underline;
     }
     .contact{
@@ -1059,11 +1098,12 @@ a:hover{
   position: absolute;
 }
 .name{
-font-family: 'Brown Sugar';
-font-weight: 500;
-  text-align: center;
-  padding-top: 5%;
-  font-size: 180px;
+  background-image: url('../imgs/textExports/NameLaptop.png');
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+  width: 1315px;
 }
 .about{
     font-size: 35px;
@@ -1190,11 +1230,12 @@ padding-top: 3%;
   position: absolute;
 }
 .name{
-font-family: 'Brown Sugar';
-font-weight: 500;
-  text-align: center;
-  padding-top: 1%;
-  font-size: 150px;
+  background-image: url('../imgs/textExports/NameLaptop.png');
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+  width: 1315px;
 }
 .about{
     font-size: 30px;

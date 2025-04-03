@@ -17,11 +17,12 @@
   position: absolute;
 }
 .name{
-font-family: 'Brown Sugar';
-font-weight: 500;
-  text-align: center;
-  padding-top: 5%;
-  font-size: 170px;
+  background-image: url('../imgs/textExports/NameSmallLaptop.png');
+  height: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+  width: 1170px;
 }
 .about{
     font-size: 35px;
@@ -141,12 +142,13 @@ padding-top: 3%;
      position: absolute;
    }
    .name{
-   font-family: 'Brown Sugar';
-   font-weight: 500;
-     text-align: center;
-     padding-top: 5%;
-     font-size: 110px;
-   }
+    background-image: url('../imgs/textExports/NameTablet.png');
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    width: 455px;
+  }
    .about{
        font-size: 40px;
        transition: color 0.3s ease-in-out;
@@ -268,12 +270,13 @@ padding-top: 3%;
    position: absolute;
  }
  .name{
- font-family: 'Brown Sugar';
- font-weight: 500;
-   text-align: center;
-   padding-top: 5%;
-   font-size: 80px;
- }
+  background-image: url('../imgs/textExports/NameMobile.png');
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+  width: 330px;
+}
  .links {
   padding-left: 2%;
   padding-right: 0%;
