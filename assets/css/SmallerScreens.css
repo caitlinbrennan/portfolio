@@ -1,5 +1,17 @@
 /*Large Laptop*/
 @media only screen and (max-width: 1500px){
+  .dark-mode {
+    .name {
+      background-image: url('../imgs/textExports/smalllaptop.png');
+    }
+    .aboutheading{
+      content: url('../imgs/textExports/medium.png');
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 5%;
+      padding-top: 5%;
+    }
+  }
     .topnav {
     display: none;
   }
@@ -64,10 +76,11 @@ padding-top: 3%;
   margin-left: 6%;
 }
 .aboutheading{
-  font-family: 'Brown Sugar';
-  font-weight: bold;
-  text-align: center;
-  font-size: 100px;
+  content: url('../imgs/textExports/AboutmeMedium.png');
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }
 .information1{
   font-size: 40px;
@@ -122,6 +135,11 @@ padding-top: 3%;
 
 /*iPad Pro Size*/
 @media only screen and (max-width: 1000px) and (min-width: 500px){
+  .dark-mode {
+    .name {
+      background-image: url('../imgs/textExports/tablet.png');
+    }
+  }
     .sub-headings{
       font-size: 25px;
     }
@@ -220,6 +238,18 @@ padding-top: 3%;
 
 /*Mobile Phone Sizing*/
 @media only screen and (max-width: 500px){
+  .dark-mode {
+    .name {
+      background-image: url('../imgs/textExports/mobile.png');
+    }
+    .aboutheading{
+      content: url('../imgs/textExports/medium.png');
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 5%;
+      padding-top: 5%;
+    }
+  }
   .topnav {
     overflow: hidden;
     display: flex;
@@ -339,6 +369,11 @@ padding-top: 3%;
      color: #000;
      font-size: 40px;
    }
+   .project-menu{
+    font-family: 'Funnel Sans';
+    color: #000;
+    font-size: 40px;
+  }
    .code-menu{
      font-family: 'Funnel Sans';
      color: #000;
@@ -348,14 +383,21 @@ padding-top: 3%;
     font-family: 'Funnel Sans';
     color: #000;
     font-size: 35px;
+    margin-top: 14.5%;
    }
    .menu-box{
      background-color: rgb(177, 177, 177);
      width: 70%;
      border-radius: 20px;
-     margin-top: 15%;
-     margin-bottom: 5%;
+     margin-top: 5%;
    }
+   .menu-box-2{
+    background-color: rgb(177, 177, 177);
+    width: 70%;
+    height: 120px;
+    margin-top: 5%;
+    border-radius: 20px;
+  }
    .menu-row{
      display: none;
    }
@@ -373,12 +415,25 @@ padding-top: 3%;
    }
 
    .subart {
+    font-size: 25px;
+   }
+   .subheadingsproj{
+    padding-right: 5%;
+   }
+   .subproj {
     font-size: 22px;
+    text-align: center;
+    padding-left: 11%;
+    padding-right: 4%;
+    text-decoration: none;
    }
    .artheadings {
     font-size: 30px;
    }
    .codeheadings {
+    font-size: 30px;
+   }
+   .projectheadings {
     font-size: 30px;
    }
    .sub-headings {
@@ -388,7 +443,7 @@ padding-top: 3%;
     font-size: 22px;
   }
    .info{
-    font-size: 15px;
+    font-size: 20px;
   }
   .infovideo {
     font-size: 17px;
@@ -428,6 +483,12 @@ padding-top: 3%;
   .mentorrow {
     width: 85%;
     padding-top: 2%;
+    padding-bottom: 1%;
+    margin-left: 6%;
+  }
+  .awardrow {
+    width: 85%;
+    padding-top: 5%;
     padding-bottom: 1%;
     margin-left: 6%;
   }
@@ -495,6 +556,14 @@ padding-top: 3%;
   margin-left: auto;
   margin-right: auto;
 }
+.awardcolumn{
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 80%;
+  padding: 0 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
    .back-arrow{
     transform: rotate(0deg);
@@ -503,7 +572,11 @@ padding-top: 3%;
     margin-top: 10%;
   }
   .aboutheading{
-    font-size: 30px;
+    content: url('../imgs/textExports/AboutmeMedium.png');
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
   }
   .information1{
     font-size: 25px;

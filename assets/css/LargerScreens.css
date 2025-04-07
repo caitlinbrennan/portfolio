@@ -500,6 +500,12 @@ a:hover{
   opacity: 1;
 }
 
+.subheadingsproj{
+  font-family: 'Funnel Sans';
+  color: #000;
+  font-weight: 200;
+    text-align: center;
+}
 .sub-headings{
   font-family: 'Funnel Sans';
   color: #000;
@@ -781,11 +787,26 @@ a:hover{
   .heart-work {
     content: url(../imgs/Outline\ White\ Heart.png);
   }
+  .heart {
+    content: url(../imgs/Outline\ White\ Heart.png);
+  }
   background-color: rgb(32, 32, 32);
 }
 
 /*Widescreen Monitor*/
 @media only screen and (max-width: 4000px){
+  .dark-mode {
+    .name {
+      background-image: url('../imgs/textExports/4kmonitor.png');
+    }
+    .aboutheading{
+      content: url('../imgs/textExports/large.png');
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 5%;
+      padding-top: 5%;
+    }
+  }
   .topnav {
     display: none;
   }
@@ -910,7 +931,11 @@ a:hover{
       margin-left: 6%;
     }
     .aboutheading{
-      font-size: 100px;
+      content: url('../imgs/textExports/AboutmeLarge.png');
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 5%;
+      padding-top: 5%;
     }
     .information1{
       font-size: 40px;
@@ -1242,7 +1267,7 @@ padding-top: 3%;
     transition: color 0.3s ease-in-out;
 }
 .mywork{
-  margin-top: 0%;
+  margin-top: 35%;
   font-size: 36px;
   transition: color 0.3s ease-in-out;
 }
@@ -1390,9 +1415,14 @@ padding-top: 3%;
   font-family: 'Funnel Sans';
   color: #000;
   font-size: 55px;
-  margin-top: 18.5%;
+  margin-top: 21.5%;
 }
-
+.menu-box-2 {
+  background-color: rgb(177, 177, 177);
+  width: 25%;
+  height: 233px;
+  border-radius: 20px;
+}
 .small-menu{
   font-size: 25px;
   margin-left: 4%;
