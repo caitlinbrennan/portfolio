@@ -12,8 +12,55 @@
       padding-top: 5%;
     }
   }
-    .topnav {
+  .topnavicons {
+    display: block;
+  }
+  .heart {
+    content: url(../imgs/logos/Outline\ Black\ Heart.png);
+    height: 45px;
+    margin-left: 85%;
+    margin-top: 5.5%;
+  }
+  .switch {
+    margin-left: 5%;
+    margin-top: -20%;
+  }
+  .heart-work {
+    content: url(../imgs/logos/Outline\ Black\ Heart.png);
+    height: 30px;
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 3%;
+  }
+  .menu-row {
     display: none;
+  }
+  .topnav {
+    overflow: hidden;
+    display: flex;
+    position: fixed;
+    width: 90.5%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+  }
+  .topnav #myLinks {
+    display: none;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    max-width: 100%;
+    text-align: center;
+    background-color: rgb(177, 177, 177);
+  }
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Funnel Sans';
+    display: block;
   }
   /*Top of Page*/
   .socials{
@@ -148,6 +195,105 @@ padding-top: 3%;
       padding-bottom: 4%;
     }
 
+    .topnav {
+      overflow: hidden;
+      display: flex;
+      position: fixed;
+      width: 90.5%;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      overflow-x: hidden;
+    }
+    .topnav #myLinks {
+      display: none;
+      text-align: center;
+      position: relative;
+      top: 10%;
+      max-width: 100%;
+      text-align: center;
+      background-color: rgb(177, 177, 177);
+    }
+    .topnav a {
+      color: black;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 25px;
+      font-family: 'Funnel Sans';
+      display: block;
+    }
+  
+    .topnavicons {
+      display: block;
+    }
+    .heart {
+      content: url(../imgs/logos/Outline\ Black\ Heart.png);
+      height: 45px;
+      margin-left: 85%;
+      margin-top: 5.5%;
+    }
+    .switch {
+      margin-left: 5%;
+      margin-top: -20%;
+    }
+    .heart-work {
+      content: url(../imgs/logos/Outline\ Black\ Heart.png);
+      height: 30px;
+      position: absolute;
+      margin-left: 65%;
+      margin-top: 3%;
+    }
+     /*Menu Page*/
+     .switch-menu {
+      width: 7%;
+    }
+     .exit{
+       width: 5%;
+       margin-left: 8%;
+       margin-top: 10%;
+     }
+     .art-menu{
+       font-family: 'Funnel Sans';
+       color: #000;
+       font-size: 30px;
+     }
+     .project-menu{
+      font-family: 'Funnel Sans';
+      color: #000;
+      font-size: 30px;
+    }
+     .code-menu{
+       font-family: 'Funnel Sans';
+       color: #000;
+       font-size: 30px;
+     }
+     .achievement-menu {
+      font-family: 'Funnel Sans';
+      color: #000;
+      font-size: 30px;
+      padding-top: 4.5%;
+      margin-top: 0%;
+     }
+     .menu-box{
+       background-color: rgb(177, 177, 177);
+       width: 70%;
+       border-radius: 20px;
+       margin-top: 5%;
+     }
+     .menu-box-2{
+      background-color: rgb(177, 177, 177);
+      width: 70%;
+      height: 100%;
+      margin-top: 5%;
+      border-radius: 20px;
+    }
+     .menu-row{
+       display: none;
+     }
+     .menurow {
+      margin-top: 0%;
+     }
+
 /*Top of Page*/
   .socials{
       display: none;
@@ -156,7 +302,7 @@ padding-top: 3%;
      width: 98%;
      height: 70%;
      background-color: rgb(211, 211, 211);
-     margin-top: 10%;
+     margin-top: 2%;
      position: absolute;
    }
    .name{
@@ -167,12 +313,17 @@ padding-top: 3%;
     margin-top: 8%;
     width: 455px;
   }
+  .links {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
    .about{
-       font-size: 40px;
+       font-size: 30px;
        transition: color 0.3s ease-in-out;
    }
    .mywork{
-     font-size: 55px;
+    margin-top: 5%;
+     font-size: 35px;
      transition: color 0.3s ease-in-out;
    }
      video{
@@ -196,33 +347,6 @@ padding-top: 3%;
     padding-top: 3%;
     }
  
-     /*Menu Page*/
-     .exit{
-       width: 8%;
-       margin-left: 5%;
-       margin-top: 5%;
-     }
-     .art-menu{
-       font-family: 'Funnel Sans';
-       color: #000;
-       font-size: 80px;
-     }
-     .code-menu{
-       font-family: 'Funnel Sans';
-       color: #000;
-       font-size: 80px;
-     }
-     .menu-box{
-       background-color: rgb(177, 177, 177);
-       width: 70%;
-       border-radius: 20px;
-       margin-top: 15%;
-       margin-bottom: 5%;
-     }
-     .menu-row{
-       display: none;
-     }
- 
      .small-menu{
        font-size: 25px;
      }
@@ -234,6 +358,49 @@ padding-top: 3%;
        margin-left: 1%;
        text-decoration: none;
      }
+
+     .subheadingsproj{
+      padding-right: 5%;
+     }
+     .subproj {
+      font-size: 22px;
+      text-align: center;
+      padding-left: 11%;
+      padding-right: 4%;
+      text-decoration: none;
+     }
+     .mentorcolumn{
+      -ms-flex: 25%;
+      flex: 25%;
+      max-width: 50%;
+      padding: 0 4px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .awardcolumn{
+      -ms-flex: 25%;
+      flex: 25%;
+      max-width: 6ch;
+      padding: 0 4px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .mentorrow {
+      width: 80%;
+      padding-top: 2%;
+      padding-bottom: 1%;
+      margin-left: 9%;
+    }
+    .awardrow {
+      width: 80%;
+      padding-top: 5%;
+      padding-bottom: 1%;
+      margin-left: 9%;
+    }
+
+    .sitelink {
+      font-size: 25px;
+    }
   }
 
 /*Mobile Phone Sizing*/
