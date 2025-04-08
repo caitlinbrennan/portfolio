@@ -13,59 +13,19 @@
     }
   }
   .topnavicons {
-    display: block;
-  }
-  .heart {
-    content: url(../imgs/logos/Outline\ Black\ Heart.png);
-    height: 45px;
-    margin-left: 85%;
-    margin-top: 5.5%;
+    display: none;
   }
   .switch {
     margin-left: 5%;
-    margin-top: -20%;
-  }
-  .heart-work {
-    content: url(../imgs/logos/Outline\ Black\ Heart.png);
-    height: 30px;
-    position: absolute;
-    margin-left: 65%;
-    margin-top: 3%;
-  }
-  .menu-row {
-    display: none;
+    margin-top: 0.5%;
   }
   .topnav {
-    overflow: hidden;
-    display: flex;
-    position: fixed;
-    width: 90.5%;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-  }
-  .topnav #myLinks {
     display: none;
-    text-align: center;
-    position: relative;
-    top: 10%;
-    max-width: 100%;
-    text-align: center;
-    background-color: rgb(177, 177, 177);
-  }
-  .topnav a {
-    color: black;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    font-family: 'Funnel Sans';
-    display: block;
   }
   /*Top of Page*/
   .socials{
     position: relative;
-    padding-left: 88%;
+    padding-left: 84%;
     padding-top: 1%;
 }
 .topofpage{
@@ -84,15 +44,38 @@
   width: 1170px;
 }
 .about{
-    font-size: 35px;
+    font-size: 40px;
     transition: color 0.3s ease-in-out;
 }
 .mywork{
-  font-size: 43px;
+  font-size: 50px;
+  margin-top: 8%;
   transition: color 0.3s ease-in-out;
 }
+.links {
+  padding-left: 1%;
+  padding-right: 1%;
+}
 
+.about-link{
+  margin-left: 30%;
+  text-decoration: underline;
+}
+.about-link-2 {
+  margin-left: 39%;
+  text-decoration: underline;
+}
+.about-link-3 {
+  margin-left: 35%;
+  text-decoration: underline;
+}
 
+.switch {
+  width: 60px;
+  height: 60px;
+  margin-top: 1.5%;
+  margin-left: 3%;
+}
   /*Extra*/
 .main-headings{
   font-size: 80px;
@@ -118,9 +101,10 @@ padding-top: 3%;
 
 /*About Page*/
 .back-arrow{
-  transform: rotate(-70deg);
-  width: 10%;
+  transform: rotate(0deg);
+  width: 6%;
   margin-left: 6%;
+  padding-top: 5%;
 }
 .aboutheading{
   content: url('../imgs/textExports/AboutmeMedium.png');
@@ -159,29 +143,78 @@ padding-top: 3%;
 .art-menu{
   font-family: 'Funnel Sans';
   color: #000;
-  font-size: 100px;
+  font-size: 60px;
 }
 .code-menu{
   font-family: 'Funnel Sans';
   color: #000;
-  font-size: 100px;
+  font-size: 60px;
+}
+.project-menu{
+ font-family: 'Funnel Sans';
+ color: #000;
+ font-size: 60px;
+}
+.achievement-menu {
+ font-family: 'Funnel Sans';
+ color: #000;
+ font-size: 45px;
+ padding-top: 4.5%;
+ margin-top: 12%;
+}
+.menu-box{
+  background-color: rgb(177, 177, 177);
+  width: 20%;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+.menu-box-2{
+ background-color: rgb(177, 177, 177);
+ width: 24%;
+ height: 175px;
+ margin-top: 5%;
+ border-radius: 20px;
+}
+.menurow {
+  margin-top: 14%;
 }
 
+.mentorcolumn{
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.awardcolumn{
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 60%;
+  padding: 0 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-row {
+  padding-left: 6%;
+}
 .small-menu{
   font-size: 25px;
+  margin-left: 7%;
 }
 .code{
-  margin-left: 1%;
+  margin-left: 3%;
   text-decoration: none;
 }
 .art{
-  margin-left: 1%;
+  margin-left: 3%;
   text-decoration: none;
 }
 }
 
 /*iPad Pro Size*/
-@media only screen and (max-width: 1000px) and (min-width: 500px){
+@media only screen and (max-width: 1100px) and (min-width: 500px){
   .dark-mode {
     .name {
       background-image: url('../imgs/textExports/tablet.png');
@@ -360,14 +393,10 @@ padding-top: 3%;
      }
 
      .subheadingsproj{
-      padding-right: 5%;
+      display: none;
      }
-     .subproj {
-      font-size: 22px;
-      text-align: center;
-      padding-left: 11%;
-      padding-right: 4%;
-      text-decoration: none;
+     .subart {
+      display: none;
      }
      .mentorcolumn{
       -ms-flex: 25%;
@@ -380,7 +409,7 @@ padding-top: 3%;
     .awardcolumn{
       -ms-flex: 25%;
       flex: 25%;
-      max-width: 6ch;
+      max-width: 60%;
       padding: 0 4px;
       margin-left: auto;
       margin-right: auto;
@@ -582,17 +611,10 @@ padding-top: 3%;
    }
 
    .subart {
-    font-size: 25px;
+    display: none;
    }
    .subheadingsproj{
-    padding-right: 5%;
-   }
-   .subproj {
-    font-size: 22px;
-    text-align: center;
-    padding-left: 11%;
-    padding-right: 4%;
-    text-decoration: none;
+    display: none;
    }
    .artheadings {
     font-size: 30px;

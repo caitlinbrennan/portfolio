@@ -687,6 +687,9 @@ a:hover{
   .subart{
     color: white;
   }
+  .subproj{
+    color: white;
+  }
   .main-headings{
     color: white;
   }
@@ -816,7 +819,7 @@ a:hover{
   .switch {
     width: 60px;
     height: 60px;
-    margin-top: 0.5%;
+    margin-top: 0.7%;
     margin-left: 2%;
   }
   .switch-menu {
@@ -926,7 +929,7 @@ a:hover{
 
     /*About Page*/
     .back-arrow{
-      transform: rotate(-70deg);
+      transform: rotate(0deg);
       width: 4%;
       margin-left: 6%;
     }
@@ -950,6 +953,9 @@ a:hover{
         font-size: 40px;
     }
 
+    .menurow {
+      margin-top: 7%;
+    }
     .sub-headings{
       font-size: 40px;
     }
@@ -1026,7 +1032,7 @@ a:hover{
       font-family: 'Funnel Sans';
       color: #000;
       font-size: 75px;
-      margin-top: 11%;
+      margin-top: 13%;
     }
     .menu-box-2{
       background-color: rgb(177, 177, 177);
@@ -1067,6 +1073,17 @@ a:hover{
       text-decoration: underline;
       margin-left: 1.5%;
     }
+    
+    .subheadingsproj{
+      padding-right: 5%;
+     }
+     .subproj {
+      font-size: 35px;
+      text-align: center;
+      padding-left: 11%;
+      padding-right: 4%;
+      text-decoration: none;
+     }
 
     label {
       font-family: 'Funnel Sans';
@@ -1112,14 +1129,14 @@ a:hover{
   /*Top of Page*/
   .socials{
     position: relative;
-    padding-left: 94%;
+    padding-left: 90%;
     padding-top: 1%;
 }
 .topofpage{
   width: 99.5%;
   height: 80%;
   background-color: rgb(211, 211, 211);
-  margin-top: 3%;
+  margin-top: 2%;
   position: absolute;
 }
 .name{
@@ -1165,9 +1182,16 @@ padding-top: 3%;
   font-size: 30px;
 }
 
+.switch {
+  width: 60px;
+  height: 60px;
+  margin-top: 0.8%;
+  margin-left: 2%;
+}
+
 /*About Page*/
 .back-arrow{
-  transform: rotate(-70deg);
+  transform: rotate(0deg);
   width: 4%;
   margin-left: 6%;
 }
@@ -1191,9 +1215,20 @@ padding-top: 3%;
   font-size: 40px;
 }
 .achievements{
-  font-size: 40px;
+  font-size: 38px;
   padding-bottom: 4%;
 }
+
+.subheadingsproj{
+  padding-right: 5%;
+ }
+ .subproj {
+  font-size: 35px;
+  text-align: center;
+  padding-left: 11%;
+  padding-right: 4%;
+  text-decoration: none;
+ }
 
 /*Menu Page*/
 .exit{
@@ -1222,6 +1257,19 @@ padding-top: 3%;
 .art{
   margin-left: 1%;
   text-decoration: none;
+}
+
+.about-link{
+  margin-left: 60%;
+  text-decoration: underline;
+}
+.about-link-2 {
+  margin-left: 65%;
+  text-decoration: underline;
+}
+.about-link-3 {
+  margin-left: 62%;
+  text-decoration: underline;
 }
 }
 
@@ -1299,7 +1347,7 @@ padding-top: 3%;
   margin-left: 47.3%;
 }
 .about-link-3 {
-  margin-left: 43%;
+  margin-left: 50%;
 }
 .subheadings{
   font-size: 30px;
@@ -1309,10 +1357,10 @@ padding-top: 3%;
   font-size: 35px;
 }
 .codeheadings{
-  font-size: 50px;
+  font-size: 35px;
 }
 .projectheadings{
-  font-size: 50px;
+  font-size: 35px;
 }
 .subart{
   padding-left: 2%;
