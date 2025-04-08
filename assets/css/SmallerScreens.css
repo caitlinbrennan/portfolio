@@ -450,7 +450,8 @@ padding-top: 3%;
     overflow: hidden;
     display: flex;
     position: fixed;
-    width: 90.5%;
+    width: 100%;
+    padding-left: 6%;
     z-index: 1;
     top: 0;
     left: 0;
@@ -558,7 +559,8 @@ padding-top: 3%;
    .exit{
      width: 4%;
      margin-left: 8%;
-     margin-top: 10%;
+     margin-top: 15%;
+     margin-bottom: 5%;
    }
    .art-menu{
      font-family: 'Funnel Sans';
